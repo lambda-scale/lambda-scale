@@ -1,0 +1,74 @@
+{
+    "model_name": "llama-2-13b",
+    "original_block" : [0],
+    "transfer_block_num": 16,
+    "block_num": 8,
+    "gpu_num": 1,
+    "device_distribution": [
+      [0,1,2,3,4,5,6,7]
+    ],
+    "block_storage_size" : [3499724800,
+    3172044800,
+    3172044800,
+    3172044800,
+    3172044800,
+    3172044800,
+    3172044800,
+    3499735040],
+    "decode_time" : 0.026,
+    "block_execute_distribution" : [8,8,8,8,8,8,8,8],
+    "blocks": [
+      {
+        "block_id": 0,
+        "layer_list": [0,1,2,3,4]
+      },
+      {
+        "block_id": 1,
+        "layer_list": [5,6,7,8,9]
+      },
+      {
+        "block_id": 2,
+        "layer_list": [10,11,12,13,14]
+      },
+      {
+        "block_id": 3,
+        "layer_list": [15,16,17,18,19]
+      },
+      {
+        "block_id": 4,
+        "layer_list": [20,21,22,23,24]
+      },
+      {
+        "block_id": 5,
+        "layer_list": [25,26,27,28,29]
+      },
+      {
+        "block_id": 6,
+        "layer_list": [30,31,32,33,34]
+      },
+      {
+        "block_id": 7,
+        "layer_list": [35,36,37,38,39]
+      }
+    ],
+    "forward_dag": {
+      "0": [1],
+      "1": [2],
+      "2": [3],
+      "3": [4],
+      "4": [5],
+      "5": [6],
+      "6": [7],
+      "7": []
+    },
+    "backward_dag": {
+      "7": [6],
+      "6": [5],
+      "5": [4],
+      "4": [3],
+      "3": [2],
+      "2": [1],
+      "1": [0],
+      "0": []
+    }
+  }

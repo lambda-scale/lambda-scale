@@ -1,0 +1,645 @@
++++ realpath start_worker.sh
+++ dirname /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/start_worker.sh
++ script_dir=/sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts
++ cd /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/../serve/server
++ torchrun --nproc-per-node=1 server.py /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/../../..
+Need at least 2 GPUs for warm-up.
+warm up cache to memory 0.9293985366821289
+warm up 0.0011990070343017578
+Need at least 2 GPUs for warm-up.
+warm up cache to memory 0.7673754692077637
+warm_up_model complete
+libfabric:680776:core:core:fi_param_get_():280<info> variable perf_cntr=<not set>
+libfabric:680776:core:core:fi_param_get_():280<info> variable hook=<not set>
+[03:38:56.636601] [derecho_debug_] [Thread 680776] [debug] Program start time (microseconds): 1733560736636587
+libfabric:680776:core:core:ofi_hmem_init():209<info> Hmem iface FI_HMEM_CUDA not supported
+libfabric:680776:core:core:ofi_hmem_init():209<info> Hmem iface FI_HMEM_ROCR not supported
+libfabric:680776:core:core:ofi_hmem_init():209<info> Hmem iface FI_HMEM_ZE not supported
+libfabric:680776:core:core:fi_param_get_():280<info> variable mr_cache_max_size=<not set>
+libfabric:680776:core:core:fi_param_get_():280<info> variable mr_cache_max_count=<not set>
+libfabric:680776:core:core:fi_param_get_():280<info> variable mr_cache_monitor=<not set>
+libfabric:680776:core:core:fi_param_get_():280<info> variable mr_cuda_cache_monitor_enabled=<not set>
+libfabric:680776:core:core:fi_param_get_():280<info> variable mr_rocr_cache_monitor_enabled=<not set>
+libfabric:680776:core:mr:ofi_default_cache_size():72<info> default cache size=8452589845
+libfabric:680776:core:core:fi_param_get_():280<info> variable universe_size=<not set>
+libfabric:680776:core:core:fi_param_get_():280<info> variable provider=<not set>
+libfabric:680776:core:core:fi_param_get_():280<info> variable provider_path=<not set>
+libfabric:680776:psm3:core:fi_psm3_ini():683<info> build options: HAVE_PSM3_SRC=1, PSMX3_USE_REQ_CONTEXT=1
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable name_server=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable tagged_rma=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable uuid=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable delay=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable timeout=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable prog_interval=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable prog_affinity=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable inject_size=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable lock_level=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable lazy_conn=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable conn_timeout=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable disconnect=<not set>
+libfabric:680776:psm3:core:fi_param_get_():280<info> variable tag_layout=<not set>
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: psm3 (112.10)
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: usnic (1.0)
+libfabric:680776:shm:core:fi_param_get_():280<info> variable sar_threshold=<not set>
+libfabric:680776:shm:core:fi_param_get_():280<info> variable tx_size=<not set>
+libfabric:680776:shm:core:fi_param_get_():280<info> variable rx_size=<not set>
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: shm (112.10)
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable buffer_size=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable tx_size=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable rx_size=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable msg_tx_size=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable msg_rx_size=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable cm_progress_interval=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable cq_eq_fairness=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable data_auto_progress=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable use_rndv_write=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable def_wait_obj=<not set>
+libfabric:680776:ofi_rxm:core:fi_param_get_():280<info> variable def_tcp_wait_obj=<not set>
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: ofi_rxm (112.10)
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable tx_size=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable rx_size=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable tx_iov_limit=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable rx_iov_limit=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable inline_size=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable min_rnr_timer=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable use_odp=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable prefer_xrc=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable xrcd_filename=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable cqread_bunch_size=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable gid_idx=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable device_name=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable iface=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable dgram_use_name_server=<not set>
+libfabric:680776:verbs:core:fi_param_get_():280<info> variable dgram_name_server_port=<not set>
+libfabric:680776:verbs:fabric:verbs_devs_print():880<info> list of verbs devices found for FI_EP_MSG:
+libfabric:680776:verbs:fabric:verbs_devs_print():884<info> #1 mlx5_bond_0 - IPoIB addresses:
+libfabric:680776:verbs:fabric:verbs_devs_print():894<info> 	10.153.52.123
+libfabric:680776:verbs:fabric:verbs_devs_print():894<info> 	10.250.134.123
+libfabric:680776:verbs:fabric:verbs_devs_print():884<info> #2 mlx5_2 - IPoIB addresses:
+libfabric:680776:verbs:fabric:verbs_devs_print():894<info> 	10.155.42.123
+libfabric:680776:verbs:fabric:vrb_get_device_attrs():618<info> device mlx5_2: first found active port is 1
+libfabric:680776:verbs:fabric:vrb_get_device_attrs():618<info> device mlx5_2: first found active port is 1
+libfabric:680776:verbs:fabric:vrb_get_device_attrs():618<info> device mlx5_2: first found active port is 1
+libfabric:680776:verbs:fabric:vrb_get_device_attrs():618<info> device mlx5_bond_0: first found active port is 1
+libfabric:680776:verbs:fabric:vrb_get_device_attrs():618<info> device mlx5_bond_0: first found active port is 1
+libfabric:680776:verbs:fabric:vrb_get_device_attrs():618<info> device mlx5_bond_0: first found active port is 1
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: verbs (112.10)
+libfabric:680776:ofi_mrail:core:fi_param_get_():280<info> variable config=<not set>
+libfabric:680776:ofi_mrail:core:fi_param_get_():280<info> variable addr=<not set>
+libfabric:680776:ofi_mrail:core:fi_param_get_():280<info> variable addr_strc=<not set>
+libfabric:680776:ofi_mrail:core:mrail_parse_env_vars():116<info> unable to read FI_OFI_MRAIL_ADDR env variable
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: ofi_mrail (112.10)
+libfabric:680776:ofi_rxd:core:fi_param_get_():280<info> variable spin_count=<not set>
+libfabric:680776:ofi_rxd:core:fi_param_get_():280<info> variable retry=<not set>
+libfabric:680776:ofi_rxd:core:fi_param_get_():280<info> variable max_peers=<not set>
+libfabric:680776:ofi_rxd:core:fi_param_get_():280<info> variable max_unacked=<not set>
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: ofi_rxd (112.10)
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: udp (112.10)
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: sockets (112.10)
+libfabric:680776:tcp:core:fi_param_get_():280<info> variable nodelay=<not set>
+libfabric:680776:tcp:core:fi_param_get_():280<info> variable port_high_range=<not set>
+libfabric:680776:tcp:core:fi_param_get_():280<info> variable port_low_range=<not set>
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: tcp (112.10)
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: ofi_hook_perf (112.10)
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: ofi_hook_debug (112.10)
+libfabric:680776:core:core:ofi_register_provider():412<info> registering provider: ofi_hook_noop (112.10)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #1 mlx5_2
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #2 mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1554<info> adding fi_info for domain: mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #3 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #4 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_2-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #5 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #6 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #7 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #8 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0 (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #9 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #10 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #11 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #12 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Supported: FI_EP_RDM
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Supported: FI_EP_RDM
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Supported: FI_EP_RDM
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Supported: FI_EP_RDM
+libfabric:680776:ofi_rxm:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:core:core:fi_getinfo_():1021<warn> fi_getinfo: provider ofi_rxm returned -61 (No data available)
+libfabric:680776:ofi_rxd:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:ofi_rxd:core:ofi_check_ep_type():659<info> Supported: FI_EP_RDM
+libfabric:680776:ofi_rxd:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:core:core:fi_getinfo_():1021<warn> fi_getinfo: provider ofi_rxd returned -61 (No data available)
+libfabric:680776:ofi_mrail:fabric:mrail_get_core_info():289<warn> OFI_MRAIL_ADDR_STRC env variable not set!
+libfabric:680776:core:core:fi_getinfo_():1021<warn> fi_getinfo: provider ofi_mrail returned -61 (No data available)
+libfabric:680776:core:core:fi_fabric_():1220<info> Opened fabric: IB-0xfe80000000000000
+libfabric:680776:verbs:mr:vrb_domain():348<info> MR cache enabled for FI_HMEM_SYSTEM memory
+libfabric:680776:verbs:ep_ctrl:vrb_pep_listen():518<info> listening on: fi_sockaddr_in://10.155.42.123:33287
+[03:38:56.906007] [derecho_debug_] [Thread 680776] [debug] initialize_message_types()
+[03:38:57.075977] [derecho_debug_] [Thread 680776] [debug] connect() | peer:1
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #1 mlx5_2
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #2 mlx5_2
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1554<info> adding fi_info for domain: mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #3 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #4 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_2-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #5 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #6 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #7 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #8 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0 (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #9 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #10 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #11 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #12 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #1 mlx5_2
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #2 mlx5_2
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1554<info> adding fi_info for domain: mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #3 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #4 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_2-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #5 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #6 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #7 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #8 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0 (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #9 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #10 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #11 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #12 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+[03:38:57.214434] [derecho_debug_] [Thread 680776] [debug] endpoint::post_empty_recv() | wr_id:1
+[03:38:57.232248] [derecho_debug_] [Thread 680776] [debug] connect() | peer:2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #1 mlx5_2
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #2 mlx5_2
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1554<info> adding fi_info for domain: mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #3 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #4 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_2-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #5 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #6 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #7 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #8 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0 (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #9 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #10 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #11 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #12 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #1 mlx5_2
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #2 mlx5_2
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1554<info> adding fi_info for domain: mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #3 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #4 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_2-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #5 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #6 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #7 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #8 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0 (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #9 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #10 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #11 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #12 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+[03:38:57.241494] [derecho_debug_] [Thread 680776] [debug] endpoint::post_empty_recv() | wr_id:2
+[03:38:57.259463] [derecho_debug_] [Thread 680776] [debug] connect() | peer:3
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #1 mlx5_2
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #2 mlx5_2
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1554<info> adding fi_info for domain: mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #3 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #4 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_2-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #5 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #6 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #7 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #8 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0 (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #9 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #10 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #11 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #12 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #1 mlx5_2
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #2 mlx5_2
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1554<info> adding fi_info for domain: mlx5_2
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #3 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #4 mlx5_2-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_2-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #5 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #6 mlx5_2-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #7 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #8 mlx5_bond_0
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0 (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #9 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():240<info> Unsupported capabilities
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:vrb_check_hints():241<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #10 mlx5_bond_0-xrc
+libfabric:680776:verbs:core:vrb_check_hints():264<info> skipping device mlx5_bond_0-xrc (want mlx5_2)
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #11 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:fabric:vrb_get_matching_info():1509<info> checking domain: #12 mlx5_bond_0-dgram
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_rx_attr():786<info> Tx only caps ignored in Rx caps
+libfabric:680776:verbs:core:ofi_check_tx_attr():884<info> Rx only caps ignored in Tx caps
+libfabric:680776:verbs:core:ofi_check_info():1033<info> Unsupported capabilities
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Supported: FI_MSG, FI_RMA, FI_ATOMIC, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM
+libfabric:680776:verbs:core:ofi_check_info():1034<info> Requested: FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_LOCAL_COMM, FI_REMOTE_COMM, FI_HMEM
+libfabric:680776:verbs:core:ofi_check_ep_attr():680<info> Unsupported protocol
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Supported: FI_PROTO_RDMA_CM_IB_XRC
+libfabric:680776:verbs:core:ofi_check_ep_attr():681<info> Requested: FI_PROTO_RDMA_CM_IB_RC
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+libfabric:680776:verbs:core:ofi_check_ep_type():658<info> unsupported endpoint type
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Supported: FI_EP_DGRAM
+libfabric:680776:verbs:core:ofi_check_ep_type():659<info> Requested: FI_EP_MSG
+[03:38:57.269630] [derecho_debug_] [Thread 680776] [debug] endpoint::post_empty_recv() | wr_id:3
+Need at least 2 GPUs for warm-up.
+/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/utils/miniconda3/lib/python3.12/site-packages/torch/__init__.py:747: UserWarning: torch.set_default_tensor_type() is deprecated as of PyTorch 2.1, please use torch.set_default_dtype() and torch.set_default_device() as alternatives. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:431.)
+  _C._set_default_tensor_type(t)

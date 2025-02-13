@@ -1,0 +1,40 @@
+{
+    "model_name": "llama-2-7b",
+    "original_block" : [0],
+    "block_num": 4,
+    "block_storage_size" : [3238133760,
+    3238133760,
+    3238133760,
+    3238133760],
+    "block_execute_distribution" : [8,8,8,8],
+    "blocks": [
+      {
+        "block_id": 0,
+        "layer_list": [0,1,2,3,4,5,6,7]
+      },
+      {
+        "block_id": 1,
+        "layer_list": [8,9,10,11,12,13,14,15]
+      },
+      {
+        "block_id": 2,
+        "layer_list": [16,17,18,19,20,21,22,23]
+      },
+      {
+        "block_id": 3,
+        "layer_list": [24,25,26,27,28,29,30,31]
+      }
+    ],
+    "forward_dag": {
+      "0": [1],
+      "1": [2],
+      "2": [3],
+      "3": []
+    },
+    "backward_dag": {
+      "3": [2],
+      "2": [1],
+      "1": [0],
+      "0": []
+    }
+  }

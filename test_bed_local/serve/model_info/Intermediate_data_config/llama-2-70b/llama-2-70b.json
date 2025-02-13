@@ -1,0 +1,121 @@
+{
+    "1": {
+        "seqlen": {
+            "is_tensor": false,
+            "value": 8
+        },
+        "start_pos": {
+            "is_tensor": false,
+            "value": 0
+        },
+        "hidden_states": {
+            "is_tensor": true,
+            "shape": [
+                4, 1, 8192
+            ],
+            "element_size": 2
+        }
+    },
+    "2": {
+        "seqlen": {
+            "is_tensor": false,
+            "value": 8
+        },
+        "start_pos": {
+            "is_tensor": false,
+            "value": 0
+        },
+        "hidden_states": {
+            "is_tensor": true,
+            "shape": [
+                4, 1, 8192
+            ],
+            "element_size": 2
+        }
+    },
+    "3": {
+        "seqlen": {
+            "is_tensor": false,
+            "value": 8
+        },
+        "start_pos": {
+            "is_tensor": false,
+            "value": 0
+        },
+        "hidden_states": {
+            "is_tensor": true,
+            "shape": [
+                4, 1, 8192
+            ],
+            "element_size": 2
+        }
+    },
+    "4": {
+        "seqlen": {
+            "is_tensor": false,
+            "value": 8
+        },
+        "start_pos": {
+            "is_tensor": false,
+            "value": 0
+        },
+        "hidden_states": {
+            "is_tensor": true,
+            "shape": [
+                4, 1, 8192
+            ],
+            "element_size": 2
+        }
+    },
+    "5": {
+        "seqlen": {
+            "is_tensor": false,
+            "value": 8
+        },
+        "start_pos": {
+            "is_tensor": false,
+            "value": 0
+        },
+        "hidden_states": {
+            "is_tensor": true,
+            "shape": [
+                4, 1, 8192
+            ],
+            "element_size": 2
+        }
+    },
+    "6": {
+        "seqlen": {
+            "is_tensor": false,
+            "value": 8
+        },
+        "start_pos": {
+            "is_tensor": false,
+            "value": 0
+        },
+        "hidden_states": {
+            "is_tensor": true,
+            "shape": [
+                4, 1, 8192
+            ],
+            "element_size": 2
+        }
+    },
+    "7": {
+        "seqlen": {
+            "is_tensor": false,
+            "value": 8
+        },
+        "start_pos": {
+            "is_tensor": false,
+            "value": 0
+        },
+        "hidden_states": {
+            "is_tensor": true,
+            "shape": [
+                4, 1, 8192
+            ],
+            "element_size": 2
+        }
+    }
+}

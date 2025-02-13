@@ -1,0 +1,52 @@
+{
+    "1": {
+        "hidden_states": {
+            "shape": [
+                1,
+                512,
+                1024
+            ],
+            "element_size": 4
+        }
+    },
+    "2": {
+        "hidden_states": {
+            "shape": [
+                1,
+                512,
+                1024
+            ],
+            "element_size": 4
+        }
+    },
+    "3": {
+        "hidden_states": {
+            "shape": [
+                1,
+                512,
+                1024
+            ],
+            "element_size": 4
+        }
+    },
+    "4": {
+        "hidden_states": {
+            "shape": [
+                1,
+                512,
+                1024
+            ],
+            "element_size": 4
+        }
+    },
+    "5": {
+        "hidden_states": {
+            "shape": [
+                1,
+                512,
+                1024
+            ],
+            "element_size": 4
+        }
+    }
+}

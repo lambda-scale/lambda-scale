@@ -1,0 +1,58 @@
+{
+    "1": {
+      "host_memory_size": "500GB",
+      "host_bandwidth": "24GB/s",
+      "disk_size": "500GB",
+      "disk_bandwidth": "5GB/s",
+      "network_bandwidth": "10Gbps"
+    },
+    "2": {
+        "host_memory_size": "500GB",
+        "host_bandwidth": "24GB/s",
+        "disk_size": "500GB",
+        "disk_bandwidth": "5GB/s",
+        "network_bandwidth": "10Gbps"
+    },
+    "3": {
+        "host_memory_size": "500GB",
+        "host_bandwidth": "24GB/s",
+        "disk_size": "500GB",
+        "disk_bandwidth": "5GB/s",
+        "network_bandwidth": "10Gbps"
+    },
+    "4": {
+        "host_memory_size": "500GB",
+        "host_bandwidth": "24GB/s",
+        "disk_size": "500GB",
+        "disk_bandwidth": "5GB/s",
+        "network_bandwidth": "10Gbps"
+    },
+    "5": {
+        "host_memory_size": "500GB",
+        "host_bandwidth": "24GB/s",
+        "disk_size": "500GB",
+        "disk_bandwidth": "5GB/s",
+        "network_bandwidth": "10Gbps"
+    },
+    "6": {
+        "host_memory_size": "500GB",
+        "host_bandwidth": "24GB/s",
+        "disk_size": "500GB",
+        "disk_bandwidth": "5GB/s",
+        "network_bandwidth": "10Gbps"
+    },
+    "7": {
+        "host_memory_size": "500GB",
+        "host_bandwidth": "24GB/s",
+        "disk_size": "500GB",
+        "disk_bandwidth": "5GB/s",
+        "network_bandwidth": "10Gbps"
+    },
+    "8": {
+        "host_memory_size": "500GB",
+        "host_bandwidth": "24GB/s",
+        "disk_size": "500GB",
+        "disk_bandwidth": "5GB/s",
+        "network_bandwidth": "10Gbps"
+    }
+}

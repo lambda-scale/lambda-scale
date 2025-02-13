@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package storage;
+
+service Storage {
+  rpc GetFiles (GetFilesRequest) returns (stream FileChunk) {}
+}
+
+message GetFilesRequest {
+  string model_name = 1; 
+}
+
+message FileChunk {
+  string filename = 1;    
+  bytes content = 2;      
+  bool end_of_file = 3; 
+}

@@ -1,0 +1,237 @@
+[07:54:43.497249] [derecho_debug_] [Thread 215914] [debug] Program start time (microseconds): 1732798483497234
+[07:54:43.764495] [derecho_debug_] [Thread 215914] [debug] initialize_message_types()
+[07:54:43.931660] [derecho_debug_] [Thread 215914] [debug] connect() | peer:0
+[07:54:43.954374] [derecho_debug_] [Thread 215914] [debug] endpoint::post_empty_recv() | wr_id:0
+[07:59:31.857629] [derecho_debug_] [Thread 216663] [debug] Program start time (microseconds): 1732798771857615
+[07:59:32.118190] [derecho_debug_] [Thread 216663] [debug] initialize_message_types()
+[07:59:32.292791] [derecho_debug_] [Thread 216663] [debug] connect() | peer:0
+[07:59:32.301427] [derecho_debug_] [Thread 216663] [debug] endpoint::post_empty_recv() | wr_id:0
+[08:00:23.028428] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:0, data size:1000000000, timestamp (ms):1732798823028
+[08:00:23.092206] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:0, timestamp (ms):1732798823092
+[08:00:23.103840] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:1, data size:881210880, timestamp (ms):1732798823103
+[08:00:23.160346] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:1, timestamp (ms):1732798823160
+[08:00:23.163446] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:2, data size:1000000000, timestamp (ms):1732798823163
+[08:00:23.227236] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:2, timestamp (ms):1732798823227
+[08:00:23.227959] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:3, data size:619066880, timestamp (ms):1732798823227
+[08:00:23.267549] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:3, timestamp (ms):1732798823267
+[08:00:23.270109] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:4, data size:1000000000, timestamp (ms):1732798823270
+[08:00:23.333908] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:4, timestamp (ms):1732798823333
+[08:00:23.334607] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:5, data size:619066880, timestamp (ms):1732798823334
+[08:00:23.373946] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:5, timestamp (ms):1732798823373
+[08:00:23.376319] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:6, data size:1000000000, timestamp (ms):1732798823376
+[08:00:23.439770] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:6, timestamp (ms):1732798823439
+[08:00:23.440598] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:7, data size:619066880, timestamp (ms):1732798823440
+[08:00:23.479411] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:7, timestamp (ms):1732798823479
+[08:00:23.481952] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:8, data size:1000000000, timestamp (ms):1732798823481
+[08:00:23.545540] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:8, timestamp (ms):1732798823545
+[08:00:23.546251] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:9, data size:619066880, timestamp (ms):1732798823546
+[08:00:23.585750] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:9, timestamp (ms):1732798823585
+[08:00:23.588326] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:10, data size:1000000000, timestamp (ms):1732798823588
+[08:00:23.651847] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:10, timestamp (ms):1732798823651
+[08:00:23.652538] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:11, data size:619066880, timestamp (ms):1732798823652
+[08:00:23.691108] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:11, timestamp (ms):1732798823691
+[08:00:23.693670] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:12, data size:1000000000, timestamp (ms):1732798823693
+[08:00:23.757228] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:12, timestamp (ms):1732798823757
+[08:00:23.759350] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:13, data size:619066880, timestamp (ms):1732798823759
+[08:00:23.798710] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:13, timestamp (ms):1732798823798
+[08:00:23.801393] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:14, data size:1000000000, timestamp (ms):1732798823801
+[08:00:23.864656] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:14, timestamp (ms):1732798823864
+[08:00:23.865362] [derecho_debug_] [Thread 216663] [debug] p2p_read_async() | unique_id:15, data size:881219072, timestamp (ms):1732798823865
+[08:00:23.920862] [derecho_debug_] [Thread 216697] [debug] on_read() | unique_id:15, timestamp (ms):1732798823920
+[08:09:33.434189] [derecho_debug_] [Thread 218078] [debug] Program start time (microseconds): 1732799373434175
+[08:09:33.707379] [derecho_debug_] [Thread 218078] [debug] initialize_message_types()
+[08:09:33.867676] [derecho_debug_] [Thread 218078] [debug] connect() | peer:0
+[08:09:33.895907] [derecho_debug_] [Thread 218078] [debug] endpoint::post_empty_recv() | wr_id:0
+[08:10:24.581522] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:0, data size:1000000000, timestamp (ms):1732799424581
+[08:10:24.645409] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:0, timestamp (ms):1732799424645
+[08:10:24.646473] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:1, data size:881210880, timestamp (ms):1732799424646
+[08:10:24.702034] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:1, timestamp (ms):1732799424702
+[08:10:24.705159] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:2, data size:1000000000, timestamp (ms):1732799424705
+[08:10:24.768305] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:2, timestamp (ms):1732799424768
+[08:10:24.769024] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:3, data size:619066880, timestamp (ms):1732799424769
+[08:10:24.808206] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:3, timestamp (ms):1732799424808
+[08:10:24.810707] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:4, data size:1000000000, timestamp (ms):1732799424810
+[08:10:24.874287] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:4, timestamp (ms):1732799424874
+[08:10:24.874984] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:5, data size:619066880, timestamp (ms):1732799424874
+[08:10:24.914218] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:5, timestamp (ms):1732799424914
+[08:10:24.917087] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:6, data size:1000000000, timestamp (ms):1732799424917
+[08:10:24.980629] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:6, timestamp (ms):1732799424980
+[08:10:24.981652] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:7, data size:619066880, timestamp (ms):1732799424981
+[08:10:25.021032] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:7, timestamp (ms):1732799425021
+[08:10:25.024552] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:8, data size:1000000000, timestamp (ms):1732799425024
+[08:10:25.087967] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:8, timestamp (ms):1732799425087
+[08:10:25.088682] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:9, data size:619066880, timestamp (ms):1732799425088
+[08:10:25.127911] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:9, timestamp (ms):1732799425127
+[08:10:25.130379] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:10, data size:1000000000, timestamp (ms):1732799425130
+[08:10:25.193575] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:10, timestamp (ms):1732799425193
+[08:10:25.194291] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:11, data size:619066880, timestamp (ms):1732799425194
+[08:10:25.232903] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:11, timestamp (ms):1732799425232
+[08:10:25.236014] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:12, data size:1000000000, timestamp (ms):1732799425236
+[08:10:25.299223] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:12, timestamp (ms):1732799425299
+[08:10:25.299885] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:13, data size:619066880, timestamp (ms):1732799425299
+[08:10:25.339206] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:13, timestamp (ms):1732799425339
+[08:10:25.341778] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:14, data size:1000000000, timestamp (ms):1732799425341
+[08:10:25.404824] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:14, timestamp (ms):1732799425404
+[08:10:25.405529] [derecho_debug_] [Thread 218078] [debug] p2p_read_async() | unique_id:15, data size:881219072, timestamp (ms):1732799425405
+[08:10:25.460878] [derecho_debug_] [Thread 218112] [debug] on_read() | unique_id:15, timestamp (ms):1732799425460
+[00:52:06.515527] [derecho_debug_] [Thread 972063] [debug] Program start time (microseconds): 1732859526515513
+[00:52:06.786646] [derecho_debug_] [Thread 972063] [debug] initialize_message_types()
+[00:52:06.959070] [derecho_debug_] [Thread 972063] [debug] connect() | peer:1
+[00:52:07.012343] [derecho_debug_] [Thread 972063] [debug] endpoint::post_empty_recv() | wr_id:1
+[00:52:07.030326] [derecho_debug_] [Thread 972063] [debug] connect() | peer:2
+[00:52:07.040352] [derecho_debug_] [Thread 972063] [debug] endpoint::post_empty_recv() | wr_id:2
+[00:52:07.058194] [derecho_debug_] [Thread 972063] [debug] connect() | peer:3
+[01:32:02.183020] [derecho_debug_] [Thread 981880] [debug] Program start time (microseconds): 1732861922183006
+[01:32:02.477142] [derecho_debug_] [Thread 981880] [debug] initialize_message_types()
+[01:32:02.643118] [derecho_debug_] [Thread 981880] [debug] connect() | peer:1
+[01:32:02.654276] [derecho_debug_] [Thread 981880] [debug] endpoint::post_empty_recv() | wr_id:1
+[01:32:02.672325] [derecho_debug_] [Thread 981880] [debug] connect() | peer:2
+[01:32:02.681228] [derecho_debug_] [Thread 981880] [debug] endpoint::post_empty_recv() | wr_id:2
+[01:32:02.698859] [derecho_debug_] [Thread 981880] [debug] connect() | peer:3
+[09:00:40.028330] [derecho_debug_] [Thread 956446] [debug] Program start time (microseconds): 1733234440028315
+[09:00:40.386887] [derecho_debug_] [Thread 956446] [debug] initialize_message_types()
+[09:00:40.551992] [derecho_debug_] [Thread 956446] [debug] connect() | peer:1
+[09:00:40.562206] [derecho_debug_] [Thread 956446] [debug] endpoint::post_empty_recv() | wr_id:1
+[09:00:40.614914] [derecho_debug_] [Thread 956446] [debug] connect() | peer:2
+[09:00:40.623969] [derecho_debug_] [Thread 956446] [debug] endpoint::post_empty_recv() | wr_id:2
+[09:00:40.641972] [derecho_debug_] [Thread 956446] [debug] connect() | peer:3
+[09:31:37.208191] [derecho_debug_] [Thread 962516] [debug] Program start time (microseconds): 1733236297208177
+[09:31:37.465908] [derecho_debug_] [Thread 962516] [debug] initialize_message_types()
+[09:31:37.630974] [derecho_debug_] [Thread 962516] [debug] connect() | peer:1
+[09:31:37.640547] [derecho_debug_] [Thread 962516] [debug] endpoint::post_empty_recv() | wr_id:1
+[09:31:37.658558] [derecho_debug_] [Thread 962516] [debug] connect() | peer:2
+[09:31:37.668019] [derecho_debug_] [Thread 962516] [debug] endpoint::post_empty_recv() | wr_id:2
+[09:31:37.685996] [derecho_debug_] [Thread 962516] [debug] connect() | peer:3
+[09:36:06.983558] [derecho_debug_] [Thread 963842] [debug] Program start time (microseconds): 1733236566983545
+[09:36:07.235059] [derecho_debug_] [Thread 963842] [debug] initialize_message_types()
+[09:36:07.388993] [derecho_debug_] [Thread 963842] [debug] connect() | peer:1
+[09:36:07.420543] [derecho_debug_] [Thread 963842] [debug] endpoint::post_empty_recv() | wr_id:1
+[09:36:07.438763] [derecho_debug_] [Thread 963842] [debug] connect() | peer:2
+[09:36:07.639140] [derecho_debug_] [Thread 963842] [debug] endpoint::post_empty_recv() | wr_id:2
+[09:36:07.694005] [derecho_debug_] [Thread 963842] [debug] connect() | peer:3
+[06:35:09.678324] [derecho_debug_] [Thread 632057] [debug] Program start time (microseconds): 1733312109678310
+[06:35:09.936156] [derecho_debug_] [Thread 632057] [debug] initialize_message_types()
+[06:35:10.090902] [derecho_debug_] [Thread 632057] [debug] connect() | peer:1
+[06:35:10.128912] [derecho_debug_] [Thread 632057] [debug] endpoint::post_empty_recv() | wr_id:1
+[06:35:10.146856] [derecho_debug_] [Thread 632057] [debug] connect() | peer:2
+[06:35:10.157336] [derecho_debug_] [Thread 632057] [debug] endpoint::post_empty_recv() | wr_id:2
+[06:35:10.175325] [derecho_debug_] [Thread 632057] [debug] connect() | peer:3
+[06:44:58.709306] [derecho_debug_] [Thread 633285] [debug] Program start time (microseconds): 1733312698709292
+[06:44:58.965869] [derecho_debug_] [Thread 633285] [debug] initialize_message_types()
+[06:44:59.124969] [derecho_debug_] [Thread 633285] [debug] connect() | peer:1
+[06:44:59.175296] [derecho_debug_] [Thread 633285] [debug] endpoint::post_empty_recv() | wr_id:1
+[06:44:59.193260] [derecho_debug_] [Thread 633285] [debug] connect() | peer:2
+[06:44:59.201635] [derecho_debug_] [Thread 633285] [debug] endpoint::post_empty_recv() | wr_id:2
+[06:44:59.219557] [derecho_debug_] [Thread 633285] [debug] connect() | peer:3
+[06:48:19.090014] [derecho_debug_] [Thread 634034] [debug] Program start time (microseconds): 1733312899090000
+[06:48:19.358481] [derecho_debug_] [Thread 634034] [debug] initialize_message_types()
+[06:48:19.522063] [derecho_debug_] [Thread 634034] [debug] connect() | peer:1
+[06:48:19.531630] [derecho_debug_] [Thread 634034] [debug] endpoint::post_empty_recv() | wr_id:1
+[06:48:19.550105] [derecho_debug_] [Thread 634034] [debug] connect() | peer:2
+[06:48:19.557284] [derecho_debug_] [Thread 634034] [debug] endpoint::post_empty_recv() | wr_id:2
+[06:48:19.575707] [derecho_debug_] [Thread 634034] [debug] connect() | peer:3
+[06:52:04.141180] [derecho_debug_] [Thread 189554] [debug] Program start time (microseconds): 1733313124141165
+[06:52:04.454221] [derecho_debug_] [Thread 189554] [debug] initialize_message_types()
+[06:52:04.615934] [derecho_debug_] [Thread 189554] [debug] connect() | peer:1
+[06:52:04.626507] [derecho_debug_] [Thread 189554] [debug] endpoint::post_empty_recv() | wr_id:1
+[06:52:04.644779] [derecho_debug_] [Thread 189554] [debug] connect() | peer:2
+[06:52:04.673515] [derecho_debug_] [Thread 189554] [debug] endpoint::post_empty_recv() | wr_id:2
+[06:52:04.691614] [derecho_debug_] [Thread 189554] [debug] connect() | peer:3
+[06:56:33.587667] [derecho_debug_] [Thread 190336] [debug] Program start time (microseconds): 1733313393587653
+[06:56:33.866265] [derecho_debug_] [Thread 190336] [debug] initialize_message_types()
+[06:56:34.023925] [derecho_debug_] [Thread 190336] [debug] connect() | peer:1
+[06:56:34.049857] [derecho_debug_] [Thread 190336] [debug] endpoint::post_empty_recv() | wr_id:1
+[06:56:34.068170] [derecho_debug_] [Thread 190336] [debug] connect() | peer:2
+[06:56:34.077211] [derecho_debug_] [Thread 190336] [debug] endpoint::post_empty_recv() | wr_id:2
+[06:56:34.095118] [derecho_debug_] [Thread 190336] [debug] connect() | peer:3
+[07:09:01.891382] [derecho_debug_] [Thread 637057] [debug] Program start time (microseconds): 1733314141891367
+[07:09:02.188553] [derecho_debug_] [Thread 637057] [debug] initialize_message_types()
+[07:09:02.366038] [derecho_debug_] [Thread 637057] [debug] connect() | peer:1
+[07:09:02.376036] [derecho_debug_] [Thread 637057] [debug] endpoint::post_empty_recv() | wr_id:1
+[07:09:02.394002] [derecho_debug_] [Thread 637057] [debug] connect() | peer:2
+[07:09:02.402711] [derecho_debug_] [Thread 637057] [debug] endpoint::post_empty_recv() | wr_id:2
+[07:09:02.420730] [derecho_debug_] [Thread 637057] [debug] connect() | peer:3
+[07:20:03.754591] [derecho_debug_] [Thread 877595] [debug] Program start time (microseconds): 1733314803754578
+[07:20:04.073155] [derecho_debug_] [Thread 877595] [debug] initialize_message_types()
+[07:20:04.238116] [derecho_debug_] [Thread 877595] [debug] connect() | peer:1
+[07:20:04.247833] [derecho_debug_] [Thread 877595] [debug] endpoint::post_empty_recv() | wr_id:1
+[07:20:04.266348] [derecho_debug_] [Thread 877595] [debug] connect() | peer:2
+[07:20:04.274534] [derecho_debug_] [Thread 877595] [debug] endpoint::post_empty_recv() | wr_id:2
+[07:20:04.292552] [derecho_debug_] [Thread 877595] [debug] connect() | peer:3
+[07:58:24.703599] [derecho_debug_] [Thread 643389] [debug] Program start time (microseconds): 1733317104703584
+[07:58:24.978695] [derecho_debug_] [Thread 643389] [debug] initialize_message_types()
+[07:58:25.149025] [derecho_debug_] [Thread 643389] [debug] connect() | peer:1
+[07:58:25.174534] [derecho_debug_] [Thread 643389] [debug] endpoint::post_empty_recv() | wr_id:1
+[07:58:25.192487] [derecho_debug_] [Thread 643389] [debug] connect() | peer:2
+[07:58:25.200941] [derecho_debug_] [Thread 643389] [debug] endpoint::post_empty_recv() | wr_id:2
+[07:58:25.219157] [derecho_debug_] [Thread 643389] [debug] connect() | peer:3
+[08:01:41.273180] [derecho_debug_] [Thread 644133] [debug] Program start time (microseconds): 1733317301273165
+[08:01:41.572055] [derecho_debug_] [Thread 644133] [debug] initialize_message_types()
+[08:01:41.724594] [derecho_debug_] [Thread 644133] [debug] connect() | peer:1
+[08:01:41.795021] [derecho_debug_] [Thread 644133] [debug] endpoint::post_empty_recv() | wr_id:1
+[08:01:41.813279] [derecho_debug_] [Thread 644133] [debug] connect() | peer:2
+[08:01:41.822393] [derecho_debug_] [Thread 644133] [debug] endpoint::post_empty_recv() | wr_id:2
+[08:01:41.840405] [derecho_debug_] [Thread 644133] [debug] connect() | peer:3
+[08:11:34.011172] [derecho_debug_] [Thread 645542] [debug] Program start time (microseconds): 1733317894011157
+[08:11:34.272227] [derecho_debug_] [Thread 645542] [debug] initialize_message_types()
+[08:11:34.442132] [derecho_debug_] [Thread 645542] [debug] connect() | peer:1
+[08:11:34.540822] [derecho_debug_] [Thread 645542] [debug] endpoint::post_empty_recv() | wr_id:1
+[08:11:34.558746] [derecho_debug_] [Thread 645542] [debug] connect() | peer:2
+[08:11:34.567072] [derecho_debug_] [Thread 645542] [debug] endpoint::post_empty_recv() | wr_id:2
+[08:11:34.585099] [derecho_debug_] [Thread 645542] [debug] connect() | peer:3
+[08:14:45.096818] [derecho_debug_] [Thread 646060] [debug] Program start time (microseconds): 1733318085096804
+[08:14:45.380174] [derecho_debug_] [Thread 646060] [debug] initialize_message_types()
+[08:14:45.541054] [derecho_debug_] [Thread 646060] [debug] connect() | peer:1
+[08:14:45.588870] [derecho_debug_] [Thread 646060] [debug] endpoint::post_empty_recv() | wr_id:1
+[08:14:45.607241] [derecho_debug_] [Thread 646060] [debug] connect() | peer:2
+[08:14:45.616359] [derecho_debug_] [Thread 646060] [debug] endpoint::post_empty_recv() | wr_id:2
+[08:14:45.634301] [derecho_debug_] [Thread 646060] [debug] connect() | peer:3
+[09:18:48.633156] [derecho_debug_] [Thread 653701] [debug] Program start time (microseconds): 1733321928633142
+[09:18:48.913963] [derecho_debug_] [Thread 653701] [debug] initialize_message_types()
+[09:18:49.081019] [derecho_debug_] [Thread 653701] [debug] connect() | peer:1
+[09:18:49.109640] [derecho_debug_] [Thread 653701] [debug] endpoint::post_empty_recv() | wr_id:1
+[09:18:49.127577] [derecho_debug_] [Thread 653701] [debug] connect() | peer:2
+[09:18:49.136291] [derecho_debug_] [Thread 653701] [debug] endpoint::post_empty_recv() | wr_id:2
+[09:18:49.154000] [derecho_debug_] [Thread 653701] [debug] connect() | peer:3
+[09:24:11.211921] [derecho_debug_] [Thread 654612] [debug] Program start time (microseconds): 1733322251211906
+[09:24:11.495504] [derecho_debug_] [Thread 654612] [debug] initialize_message_types()
+[09:24:11.640941] [derecho_debug_] [Thread 654612] [debug] connect() | peer:1
+[09:24:11.670965] [derecho_debug_] [Thread 654612] [debug] endpoint::post_empty_recv() | wr_id:1
+[09:24:11.689202] [derecho_debug_] [Thread 654612] [debug] connect() | peer:2
+[09:24:11.698378] [derecho_debug_] [Thread 654612] [debug] endpoint::post_empty_recv() | wr_id:2
+[09:24:11.716440] [derecho_debug_] [Thread 654612] [debug] connect() | peer:3
+[11:11:02.727032] [derecho_debug_] [Thread 953692] [debug] Program start time (microseconds): 1733501462727017
+[11:11:03.036226] [derecho_debug_] [Thread 953692] [debug] initialize_message_types()
+[11:11:03.215166] [derecho_debug_] [Thread 953692] [debug] connect() | peer:1
+[11:11:03.251461] [derecho_debug_] [Thread 953692] [debug] endpoint::post_empty_recv() | wr_id:1
+[11:11:03.269785] [derecho_debug_] [Thread 953692] [debug] connect() | peer:2
+[11:11:03.420135] [derecho_debug_] [Thread 953692] [debug] endpoint::post_empty_recv() | wr_id:2
+[11:11:03.438102] [derecho_debug_] [Thread 953692] [debug] connect() | peer:3
+[11:36:43.920385] [derecho_debug_] [Thread 799914] [debug] Program start time (microseconds): 1733503003920371
+[11:36:44.227069] [derecho_debug_] [Thread 799914] [debug] initialize_message_types()
+[11:36:44.394065] [derecho_debug_] [Thread 799914] [debug] connect() | peer:1
+[11:36:44.492943] [derecho_debug_] [Thread 799914] [debug] endpoint::post_empty_recv() | wr_id:1
+[11:36:44.510828] [derecho_debug_] [Thread 799914] [debug] connect() | peer:2
+[11:36:44.566565] [derecho_debug_] [Thread 799914] [debug] endpoint::post_empty_recv() | wr_id:2
+[11:36:44.584349] [derecho_debug_] [Thread 799914] [debug] connect() | peer:3
+[11:42:04.292011] [derecho_debug_] [Thread 973161] [debug] Program start time (microseconds): 1733503324291997
+[11:42:04.578596] [derecho_debug_] [Thread 973161] [debug] initialize_message_types()
+[11:42:04.757002] [derecho_debug_] [Thread 973161] [debug] connect() | peer:1
+[11:42:04.808901] [derecho_debug_] [Thread 973161] [debug] endpoint::post_empty_recv() | wr_id:1
+[11:42:04.827041] [derecho_debug_] [Thread 973161] [debug] connect() | peer:2
+[11:42:04.860431] [derecho_debug_] [Thread 973161] [debug] endpoint::post_empty_recv() | wr_id:2
+[11:42:04.878213] [derecho_debug_] [Thread 973161] [debug] connect() | peer:3
+[11:45:04.366198] [derecho_debug_] [Thread 977285] [debug] Program start time (microseconds): 1733503504366184
+[11:45:04.670378] [derecho_debug_] [Thread 977285] [debug] initialize_message_types()
+[11:45:04.822916] [derecho_debug_] [Thread 977285] [debug] connect() | peer:1
+[11:45:05.015178] [derecho_debug_] [Thread 977285] [debug] endpoint::post_empty_recv() | wr_id:1
+[11:45:05.033331] [derecho_debug_] [Thread 977285] [debug] connect() | peer:2
+[11:45:05.042979] [derecho_debug_] [Thread 977285] [debug] endpoint::post_empty_recv() | wr_id:2
+[11:45:05.060779] [derecho_debug_] [Thread 977285] [debug] connect() | peer:3
+[03:38:56.636601] [derecho_debug_] [Thread 680776] [debug] Program start time (microseconds): 1733560736636587
+[03:38:56.906007] [derecho_debug_] [Thread 680776] [debug] initialize_message_types()
+[03:38:57.075977] [derecho_debug_] [Thread 680776] [debug] connect() | peer:1
+[03:38:57.214434] [derecho_debug_] [Thread 680776] [debug] endpoint::post_empty_recv() | wr_id:1
+[03:38:57.232248] [derecho_debug_] [Thread 680776] [debug] connect() | peer:2
+[03:38:57.241494] [derecho_debug_] [Thread 680776] [debug] endpoint::post_empty_recv() | wr_id:2
+[03:38:57.259463] [derecho_debug_] [Thread 680776] [debug] connect() | peer:3

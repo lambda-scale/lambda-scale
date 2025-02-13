@@ -1,0 +1,68 @@
+{
+    "model_name": "bertqa",
+    "original_block" : [0],
+    "block_num": 8,
+    "block_storage_size" : [151154688,
+    151154688,
+    151154688,
+    151154688,
+    151154688,
+    151154688,
+    151154688,
+    151162888],
+    "block_execute_distribution" : [8,8,8,8,8,8,8,8],
+    "blocks": [
+      {
+        "block_id": 0,
+        "layer_list": [0,1,2]
+      },
+      {
+        "block_id": 1,
+        "layer_list": [3,4,5]
+      },
+      {
+        "block_id": 2,
+        "layer_list": [6,7,8]
+      },
+      {
+        "block_id": 3,
+        "layer_list": [9,10,11]
+      },
+      {
+        "block_id": 4,
+        "layer_list": [12,13,14]
+      },
+      {
+        "block_id": 5,
+        "layer_list": [15,16,17]
+      },
+      {
+        "block_id": 6,
+        "layer_list": [18,19,20]
+      },
+      {
+        "block_id": 7,
+        "layer_list": [21,22,23]
+      }
+    ],
+    "forward_dag": {
+      "0": [1],
+      "1": [2],
+      "2": [3],
+      "3": [4],
+      "4": [5],
+      "5": [6],
+      "6": [7],
+      "7": []
+    },
+    "backward_dag": {
+      "7": [6],
+      "6": [5],
+      "5": [4],
+      "4": [3],
+      "3": [2],
+      "2": [1],
+      "1": [0],
+      "0": []
+    }
+  }

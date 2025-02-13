@@ -1,0 +1,5 @@
+{
+    "max_gen_len": 64,
+    "temperature": 0,
+    "top_p": 0.9
+}

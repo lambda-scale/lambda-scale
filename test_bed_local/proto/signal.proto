@@ -1,0 +1,309 @@
+syntax = "proto3";
+
+package quick_verify;
+
+enum ExecutePattern{
+    Normal = 0;
+    Distributed = 1;
+    Resume = 2;
+}
+
+enum TransferPattern{
+    Local = 0;
+    Remote = 1;
+    Inner = 2;
+    NcclBroadcast = 3;
+    Memory = 4;
+}
+
+enum RequestType {
+    TransferModel = 0;
+    TransferModelComplete = 2;
+    Execute = 3;
+    ExecuteComplete = 4;
+
+    FetchModelData = 5;
+    FetchModelDataComplete = 6;
+
+    ModelRedirect = 7;
+
+    SelfModelStorageSync = 8;
+    ModelStorageSync = 9;
+
+    InitExecutor = 10;
+    InitExecutorComplete = 11;
+
+    InferenceRequest = 12;
+
+    UpdateModelStorageInfo = 13;
+
+    DeployModel = 14;
+    DestroyModel = 15;
+
+    Start = 16;
+    TestExecute = 17;
+    TestTransfer = 18;
+    TestClear = 19;
+
+    UpdateExecuteStopFlag = 20;
+
+    FetchIntermediateData = 21;
+    FetchIntermediateDataComplete = 22;
+}
+
+message Request {
+    RequestType type = 1;
+    int32 model_id = 2;
+    int32 worker_id= 3;
+
+    InferenceRequestProto inference_request = 4;
+
+    TransferModelProto transfer_model =5;
+    TransferModelCompleteProto transfer_model_complete = 6;
+    ExecuteProto execute = 7;
+    ExecuteCompleteProto execute_complete = 8;
+    ModelRedirectProto model_redirect = 9;
+    FetchModelDataProto fetch_model_data = 10;
+    FetchModelDataCompleteProto fetch_model_data_complete = 11;
+    SelfModelStorageSyncProto self_model_storage_sync = 12;
+    ModelStorageSyncProto model_storage_sync = 13;
+    UpdateModelStorageInfoProto update_model_storage_info = 14;
+
+    DeployModelProto deploy_model = 15;
+
+    FetchIntermediateDataProto fetch_intermediate_data = 16;
+    FetchIntermediateDataCompleteProto fetch_intermediate_data_complete = 17;
+    UpdateExecuteStopFlagProto update_execute_stop_flag = 18;
+}
+
+message UpdateExecuteStopFlagProto{
+    bool value = 1;
+}
+
+message FetchIntermediateDataProto{
+    int32 block_id = 1;
+    int32 src_node_id = 2;
+    int32 src_worker_id = 3;
+    int32 dst_node_id = 4;
+    int32 dst_worker_id = 5;
+    MrInfo remote_mr_info = 6;
+    int32 bytes = 7;
+}
+
+message FetchIntermediateDataCompleteProto{
+    int32 block_id = 1;
+    int32 src_node_id = 2;
+    int32 src_worker_id = 3;
+}
+
+message DeployModelProto{
+    string model_name = 1;
+    int32 worker_num = 2;
+}
+
+message UpdateModelStorageInfoProto{
+    int32 model_id = 1;
+    int32 node_id = 2;
+    int32 worker_id = 3;
+    bool is_memory = 4;
+    bool is_ssd = 5;
+    bool is_gpu = 6;
+    bool value = 7;
+}
+
+message InferenceRequestProto{
+    string model_name = 1;
+    bytes input_data = 2;
+}
+
+message SelfModelStorageSyncProto{
+    ModelStorageInfo model_storage_info = 1;
+}
+
+message ModelStorageSyncProto{
+    repeated ModelStorageInfo model_storage_infos = 1;
+}
+
+message ModelStorageInfo{
+    int32 node_id = 1;
+    int32 model_id = 2;
+    string model_name = 3;
+    repeated bytes handles = 4;
+}
+
+message ModelRedirectProto{
+    int32 model_id = 1;
+    string model_name = 2;
+    // repeated uint64 offsets = 3;
+    // repeated uint64 intermediate_data_offsets = 4;
+    repeated bytes intermediate_data_handles = 4;
+    repeated MrInfo intermediate_data_mr_infos = 5;
+
+    repeated bytes handles = 7;
+}
+
+message TransferModelProto{
+    int32 model_id = 1;
+    string model_name = 2;
+    TransferPattern transfer_pattern = 4;
+    int32 scale_id = 5;
+    RemoteTransferModelProto remote_transfer_model = 6;
+    LocalTransferModelProto local_transfer_model = 7;
+    NcclBroadcastTransferModelProto nccl_broadcast_transfer_model = 8;
+    MemoryTransferModelProto memory_transfer_model = 9;
+}
+
+message RemoteTransferModelProto{
+    int32 group_id = 1;
+    int32 transfer_block_id = 2;
+    int32 node_id = 3;
+    int32 remote_worker_id = 4;
+}
+
+message LocalTransferModelProto{
+    int32 group_id = 1;
+}
+
+message Int32List {
+    repeated int32 items = 1;
+}
+
+message NcclBroadcastTransferModelProto{
+    int32 src_rank = 1;
+    repeated Int32List ranks = 2;
+    repeated int32 block_ids = 3;
+    int32 device_id = 4;
+}
+
+message MemoryTransferModelProto{
+    int32 node_id = 1;
+}
+
+message TransferModelCompleteProto{
+    int32 model_id = 1;
+    string model_name = 2;
+    int32 gpu_id = 3;
+
+    repeated int32 gpu_ids = 4;
+    repeated int32 worker_ids = 5;
+
+    bool is_intra_node_gpu = 6;
+    bool is_intra_node_memory = 7;
+
+    TransferPattern transfer_pattern = 8;
+    int32 scale_id = 9;
+    int32 group_id = 10;
+    int32 transfer_block_id = 11;
+    int32 node_id = 12;
+    int32 src_node_id = 13;
+    int32 dst_node_id = 14;
+}
+
+message ExecuteProto{
+    string model_name = 1;
+    ExecutePattern execute_pattern = 3;
+    int32 scale_id = 4;
+    int32 execute_id = 5;
+    NormalExecuteProto normal_execute = 6;
+    DistributedExecuteProto distributed_execute = 7;
+    ResumeExecuteProto resume_execute = 8;
+}
+
+message NormalExecuteProto{
+    bytes input_data = 3;
+}
+
+message DistributedExecuteProto{
+    int32 group_id = 1;
+
+    bool is_bring_data = 2;
+    bytes input_data = 3;
+
+
+    TransferPattern transfer_pattern = 4;
+    repeated IntermediateInfoProto intermediate_info = 5;
+}
+
+message ResumeExecuteProto{
+    bytes intermediate_info = 1;
+}
+
+message IntermediateInfoProto{
+    int32 pre_block_id = 1;
+    int32 pre_worker_id = 2;
+    int32 pre_execute_node_id = 3;
+
+    
+
+    repeated TensorInfoProto tensors = 4;
+}
+
+message TensorInfoProto{
+    int32 node_id = 1;
+    int32 device_id = 2;
+    string tensor_name = 3;
+
+    // remote info
+
+    MrInfo mr_info = 4;
+
+    // inner info
+
+    // bytes handle = 5;
+    int32 offset = 6;
+    int32 size = 7;
+
+
+    // is_int
+
+    bool is_int = 8;
+}
+
+message ExecuteCompleteProto{
+    int32 model_id = 1;
+    string model_name = 2;
+    int32 gpu_id = 4;
+    ExecutePattern execute_pattern = 5;
+    int32 scale_id = 6;
+    int32 execute_id = 7;
+    int32 node_id = 8;
+
+    bool is_intermediate = 9;
+
+    int32 group_id = 10;
+    bytes output_data = 11;
+
+    IntermediateInfoProto intermediate_info = 12;
+}
+
+message FetchModelDataProto{
+    int32 scale_id=1;
+    int32 dst_worker_id=2;
+    string model_name = 3;
+    int32 dst_node_id = 4;
+    int32 block_id = 5;
+    int32 transfer_block_id = 6;
+}
+
+message FetchModelDataCompleteProto{
+    int32 scale_id=1;
+    int32 src_worker_id=2;
+    string model_name = 3;
+    int32 block_id = 4;
+    int32 transfer_block_id = 5;
+    int32 src_node_id = 6;
+    repeated MrInfo mr_info_list = 7; 
+    
+
+
+
+    int32 remote_device_id = 8;
+    bytes handle = 9;
+    //uint64 remote_offset = 10;
+}
+
+message MrInfo{
+    uint64 element1 = 1;
+    uint64 element2 = 2;
+    uint64 element3 = 3;
+}

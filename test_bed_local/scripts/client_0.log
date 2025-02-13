@@ -1,0 +1,6 @@
++++ realpath send_request.sh
+++ dirname /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/send_request.sh
++ script_dir=/sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts
++ cd /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/../test
++ python3 sender_fix_rate.py /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/../../..
+Start sending requests interval 0.5

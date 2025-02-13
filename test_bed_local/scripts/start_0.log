@@ -1,0 +1,6 @@
++++ realpath start.sh
+++ dirname /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/start.sh
++ script_dir=/sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts
++ cd /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/../test
++ python3 start.py /sfs/weka/scratch/qgh4hm/chaobo/slurm_nodes/slurm_node0/src/gpu-fast-scaling/test_bed_local/scripts/../../..
+start the controller
