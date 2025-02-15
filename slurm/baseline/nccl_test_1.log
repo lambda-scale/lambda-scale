@@ -1,0 +1,761 @@
+12/21/2024 12:13:24 PM rank: 1
+12/21/2024 12:13:24 PM world_size: 4
+12/21/2024 12:13:24 PM Successfully setup
+12/21/2024 12:13:34 PM Successfully loaded model
+12/21/2024 12:13:39 PM here
+12/21/2024 12:14:20 PM rank: 1
+12/21/2024 12:14:20 PM world_size: 2
+12/21/2024 12:14:21 PM Successfully setup
+12/21/2024 12:14:25 PM Successfully loaded model
+12/21/2024 12:14:30 PM here
+12/21/2024 12:15:21 PM rank: 1
+12/21/2024 12:15:21 PM world_size: 8
+12/21/2024 12:15:28 PM Successfully setup
+12/21/2024 12:15:32 PM Successfully loaded model
+12/21/2024 12:15:37 PM here
+12/21/2024 12:19:34 PM rank: 1
+12/21/2024 12:19:34 PM world_size: 8
+12/21/2024 12:19:34 PM Successfully setup
+12/21/2024 12:19:38 PM Successfully loaded model
+12/21/2024 12:19:43 PM here
+12/21/2024 12:21:03 PM rank: 1
+12/21/2024 12:21:03 PM world_size: 8
+12/21/2024 12:21:04 PM Successfully setup
+12/21/2024 12:21:08 PM Successfully loaded model
+12/21/2024 12:21:13 PM here
+12/21/2024 12:22:21 PM rank: 1
+12/21/2024 12:22:21 PM world_size: 8
+12/21/2024 12:22:21 PM Successfully setup
+12/21/2024 12:22:25 PM Successfully loaded model
+12/21/2024 12:22:30 PM here
+12/21/2024 12:53:41 PM rank: 1
+12/21/2024 12:53:41 PM world_size: 4
+12/21/2024 12:53:42 PM Successfully setup
+12/21/2024 12:54:02 PM Successfully loaded model
+12/21/2024 12:54:07 PM here
+12/21/2024 12:54:53 PM rank: 1
+12/21/2024 12:54:53 PM world_size: 4
+12/21/2024 12:54:53 PM Successfully setup
+12/21/2024 12:54:58 PM Successfully loaded model
+12/21/2024 12:55:03 PM here
+12/21/2024 12:55:52 PM rank: 1
+12/21/2024 12:55:52 PM world_size: 4
+12/21/2024 12:55:52 PM Successfully setup
+12/21/2024 12:55:57 PM Successfully loaded model
+12/21/2024 12:56:02 PM here
+12/21/2024 05:19:26 PM rank: 1
+12/21/2024 05:19:26 PM world_size: 4
+12/21/2024 05:19:27 PM Successfully setup
+12/21/2024 05:21:18 PM Successfully loaded model
+12/21/2024 05:21:23 PM here
+12/21/2024 05:22:21 PM rank: 1
+12/21/2024 05:22:21 PM world_size: 4
+12/21/2024 05:22:21 PM Successfully setup
+12/21/2024 05:22:26 PM Successfully loaded model
+12/21/2024 05:22:31 PM here
+12/21/2024 05:26:17 PM rank: 1
+12/21/2024 05:26:17 PM world_size: 4
+12/21/2024 05:26:18 PM Successfully setup
+12/21/2024 05:28:10 PM Successfully loaded model
+12/21/2024 05:28:16 PM here
+12/21/2024 05:29:23 PM rank: 1
+12/21/2024 05:29:23 PM world_size: 4
+12/21/2024 05:29:23 PM Successfully setup
+12/21/2024 05:29:31 PM Successfully loaded model
+12/21/2024 05:29:37 PM here
+12/21/2024 05:29:38 PM barrier Time: 0.6015
+12/21/2024 05:30:57 PM rank: 1
+12/21/2024 05:30:57 PM world_size: 4
+12/21/2024 05:30:58 PM Successfully setup
+12/21/2024 05:31:03 PM Successfully loaded model
+12/21/2024 05:31:08 PM here
+12/21/2024 05:31:08 PM barrier Time: 0.0000
+12/21/2024 08:31:32 PM rank: 1
+12/21/2024 08:31:32 PM world_size: 4
+12/21/2024 08:31:32 PM Successfully setup
+12/21/2024 08:35:06 PM Successfully loaded model
+12/21/2024 08:38:10 PM rank: 1
+12/21/2024 08:38:10 PM world_size: 4
+12/21/2024 08:38:11 PM Successfully setup
+12/21/2024 08:38:32 PM Successfully loaded model
+12/21/2024 08:40:19 PM rank: 1
+12/21/2024 08:40:19 PM world_size: 4
+12/21/2024 08:40:19 PM Successfully setup
+12/21/2024 08:40:29 PM Successfully loaded model
+12/21/2024 08:41:52 PM rank: 1
+12/21/2024 08:41:52 PM world_size: 4
+12/21/2024 08:41:53 PM Successfully setup
+12/21/2024 08:43:43 PM Successfully loaded model
+12/21/2024 08:43:48 PM here
+12/21/2024 08:43:48 PM dist.barrier()
+12/21/2024 08:44:21 PM rank: 1
+12/21/2024 08:44:21 PM world_size: 4
+12/21/2024 08:44:21 PM Successfully setup
+12/21/2024 08:44:26 PM Successfully loaded model
+12/21/2024 08:44:31 PM here
+12/21/2024 08:47:01 PM rank: 1
+12/21/2024 08:47:01 PM world_size: 4
+12/21/2024 08:47:01 PM Successfully setup
+12/21/2024 08:47:14 PM Successfully loaded model
+12/21/2024 09:34:36 PM device_count: 4
+12/21/2024 09:34:36 PM rank: 1
+12/21/2024 09:34:36 PM world_size: 2
+12/23/2024 01:36:29 PM device_count: 1
+12/23/2024 01:36:29 PM rank: 1
+12/23/2024 01:36:29 PM world_size: 2
+12/23/2024 01:36:29 PM Successfully setup
+12/23/2024 01:37:59 PM Successfully loaded model
+12/23/2024 01:47:10 PM device_count: 1
+12/23/2024 01:47:10 PM rank: 1
+12/23/2024 01:47:10 PM world_size: 2
+12/23/2024 01:47:11 PM Successfully setup
+12/23/2024 01:48:43 PM Successfully loaded model
+12/23/2024 01:50:33 PM device_count: 1
+12/23/2024 01:50:33 PM rank: 1
+12/23/2024 01:50:33 PM world_size: 2
+12/23/2024 01:50:33 PM Successfully setup
+12/23/2024 01:50:33 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 01:50:33 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 01:50:36 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 01:50:36 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 01:50:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 01:50:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 01:50:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 01:50:37 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 01:50:37 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 01:50:37 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/23/2024 01:50:37 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 01:50:38 PM https://safetensors-convert.hf.space:443 "GET /call/run/86b448f914244575af38d9548e569a86 HTTP/11" 200 None
+12/23/2024 01:50:38 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 01:50:39 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 01:50:39 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 01:50:39 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 01:50:39 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 01:52:09 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 01:52:09 PM Successfully loaded model
+12/23/2024 01:57:01 PM device_count: 1
+12/23/2024 01:57:01 PM rank: 1
+12/23/2024 01:57:01 PM world_size: 2
+12/23/2024 01:57:01 PM Successfully setup
+12/23/2024 01:57:01 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 01:57:01 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 01:57:03 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 01:57:03 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 01:57:03 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 01:57:04 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 01:57:04 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 01:57:04 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 01:57:04 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 01:57:05 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/23/2024 01:57:05 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 01:57:06 PM https://safetensors-convert.hf.space:443 "GET /call/run/96806ff76e5c465fb0b06c6995fd3efb HTTP/11" 200 None
+12/23/2024 01:57:06 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 01:57:06 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 01:57:07 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 01:57:07 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 01:57:07 PM Successfully loaded model
+12/23/2024 01:57:07 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 01:57:07 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 01:59:00 PM device_count: 1
+12/23/2024 01:59:00 PM rank: 1
+12/23/2024 01:59:00 PM world_size: 2
+12/23/2024 01:59:00 PM Successfully setup
+12/23/2024 01:59:00 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 01:59:01 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 01:59:02 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 01:59:02 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 01:59:02 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 01:59:03 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 01:59:03 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 01:59:03 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 01:59:03 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 01:59:04 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/23/2024 01:59:04 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 01:59:05 PM https://safetensors-convert.hf.space:443 "GET /call/run/0e22590ce6b74856a43303f087d8dbb8 HTTP/11" 200 None
+12/23/2024 01:59:05 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 01:59:05 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 01:59:05 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 01:59:05 PM Successfully loaded model
+12/23/2024 01:59:05 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 01:59:06 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 01:59:06 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 02:00:00 PM device_count: 1
+12/23/2024 02:00:00 PM rank: 1
+12/23/2024 02:00:00 PM world_size: 2
+12/23/2024 02:00:00 PM Successfully setup
+12/23/2024 02:00:00 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:00:01 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 02:00:02 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 02:00:02 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:00:02 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 02:00:03 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:00:03 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:00:03 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:00:03 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:00:04 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 503 58
+12/23/2024 02:00:05 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 02:00:05 PM Successfully loaded model
+12/23/2024 02:34:33 PM device_count: 1
+12/23/2024 02:34:33 PM rank: 1
+12/23/2024 02:34:33 PM world_size: 2
+12/23/2024 02:34:33 PM Successfully setup
+12/23/2024 02:34:33 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:34:34 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 02:34:35 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 02:34:35 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:34:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 02:34:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:34:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:34:37 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:34:37 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:34:38 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/23/2024 02:34:38 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:34:38 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 02:34:38 PM Successfully loaded model
+12/23/2024 02:34:38 PM https://safetensors-convert.hf.space:443 "GET /call/run/f95ed0547128484f9ca17647e4d21e03 HTTP/11" 200 None
+12/23/2024 02:34:40 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:34:40 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:34:40 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:34:41 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 02:34:41 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 02:37:17 PM device_count: 1
+12/23/2024 02:37:17 PM rank: 1
+12/23/2024 02:37:17 PM world_size: 4
+12/23/2024 02:37:24 PM Successfully setup
+12/23/2024 02:37:24 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:37:24 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 02:37:26 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 02:37:26 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:37:27 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 02:37:27 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:37:27 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:37:28 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:37:28 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:37:28 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 503 58
+12/23/2024 02:39:01 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 02:39:01 PM Successfully loaded model
+12/23/2024 02:44:01 PM device_count: 1
+12/23/2024 02:44:01 PM rank: 1
+12/23/2024 02:44:01 PM world_size: 8
+12/23/2024 02:44:01 PM Successfully setup
+12/23/2024 02:44:01 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:44:02 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 02:44:05 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 02:44:05 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:44:06 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 02:44:06 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:44:06 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:44:07 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:44:07 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:44:07 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/23/2024 02:44:07 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:44:08 PM https://safetensors-convert.hf.space:443 "GET /call/run/caacfe2dffe54b88812254ab8781c8c5 HTTP/11" 200 None
+12/23/2024 02:44:09 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:44:10 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:44:10 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:44:10 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 02:44:10 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 02:45:49 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 02:45:49 PM Successfully loaded model
+12/23/2024 02:47:04 PM device_count: 1
+12/23/2024 02:47:04 PM rank: 1
+12/23/2024 02:47:04 PM world_size: 12
+12/23/2024 02:47:11 PM Successfully setup
+12/23/2024 02:47:11 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:47:11 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 02:47:13 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 02:47:13 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:47:13 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 02:47:14 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:47:14 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:47:14 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:47:14 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:47:15 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 503 58
+12/23/2024 02:47:17 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 02:47:17 PM Successfully loaded model
+12/23/2024 02:52:37 PM device_count: 1
+12/23/2024 02:52:37 PM rank: 1
+12/23/2024 02:52:37 PM world_size: 8
+12/23/2024 02:52:37 PM Successfully setup
+12/23/2024 02:52:37 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:52:38 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 02:52:39 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 02:52:39 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:52:40 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 02:52:40 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:52:40 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:52:40 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:52:40 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:52:41 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/23/2024 02:52:41 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:52:42 PM https://safetensors-convert.hf.space:443 "GET /call/run/e9555db7e30b43578cccf9a2a4db592d HTTP/11" 200 None
+12/23/2024 02:52:43 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 02:52:43 PM Successfully loaded model
+12/23/2024 02:52:43 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:52:44 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:52:44 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:52:44 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 02:52:45 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/23/2024 02:55:32 PM device_count: 1
+12/23/2024 02:55:32 PM rank: 1
+12/23/2024 02:55:32 PM world_size: 8
+12/23/2024 02:55:33 PM Successfully setup
+12/23/2024 02:55:33 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:55:33 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/23/2024 02:55:35 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/23/2024 02:55:35 PM Starting new HTTPS connection (1): hf-mirror.com:443
+12/23/2024 02:55:35 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/23/2024 02:55:35 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/23/2024 02:55:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/23/2024 02:55:36 PM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/23/2024 02:55:36 PM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/23/2024 02:55:37 PM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 503 58
+12/23/2024 02:55:38 PM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/23/2024 02:55:38 PM Successfully loaded model
+12/24/2024 01:44:51 AM device_count: 1
+12/24/2024 01:44:51 AM rank: 1
+12/24/2024 01:44:51 AM world_size: 2
+12/24/2024 01:44:52 AM Successfully setup
+12/24/2024 01:44:52 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:44:52 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 01:44:55 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 01:44:55 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:44:56 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 01:44:56 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:44:56 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:44:56 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:44:57 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:44:57 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 01:44:57 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:44:58 AM https://safetensors-convert.hf.space:443 "GET /call/run/a767cdc28bde492dbcf69f7f64230a29 HTTP/11" 200 None
+12/24/2024 01:44:58 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:44:59 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:44:59 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:44:59 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 01:44:59 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 01:46:30 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 01:46:30 AM Successfully loaded model
+12/24/2024 01:51:25 AM device_count: 1
+12/24/2024 01:51:25 AM rank: 1
+12/24/2024 01:51:25 AM world_size: 2
+12/24/2024 01:51:28 AM Successfully setup
+12/24/2024 01:51:28 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:51:28 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 01:51:30 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 01:51:30 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:51:30 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 01:51:31 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:51:31 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:51:31 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:51:31 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:51:32 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 01:51:32 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:51:33 AM https://safetensors-convert.hf.space:443 "GET /call/run/92eb8e36e00d40069e3326f7ecdb9a36 HTTP/11" 200 None
+12/24/2024 01:51:33 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:51:33 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 01:51:33 AM Successfully loaded model
+12/24/2024 01:51:33 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:51:34 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:51:34 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 01:51:34 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 01:54:10 AM device_count: 1
+12/24/2024 01:54:10 AM rank: 1
+12/24/2024 01:54:10 AM world_size: 2
+12/24/2024 01:54:11 AM Successfully setup
+12/24/2024 01:54:11 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:54:11 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 01:54:12 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 01:54:12 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:54:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 01:54:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:54:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:54:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:54:13 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:54:14 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 01:54:14 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:54:15 AM https://safetensors-convert.hf.space:443 "GET /call/run/a19f55949efb4ca89ae1d021066d7767 HTTP/11" 200 None
+12/24/2024 01:54:15 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 01:54:16 AM Successfully loaded model
+12/24/2024 01:54:16 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:54:16 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:54:16 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:54:16 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 01:54:17 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 01:55:10 AM device_count: 1
+12/24/2024 01:55:10 AM rank: 1
+12/24/2024 01:55:10 AM world_size: 4
+12/24/2024 01:55:10 AM Successfully setup
+12/24/2024 01:55:10 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:55:11 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 01:55:12 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 01:55:12 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 01:55:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 01:55:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:55:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:55:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:55:13 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:55:14 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 01:55:14 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 01:55:15 AM https://safetensors-convert.hf.space:443 "GET /call/run/95fc00a48c534254a7fc4c7fe1dc2665 HTTP/11" 200 None
+12/24/2024 01:55:15 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 01:55:15 AM Successfully loaded model
+12/24/2024 01:55:18 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 01:55:18 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 01:55:19 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 01:55:19 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 01:55:19 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:01:34 AM device_count: 1
+12/24/2024 02:01:34 AM rank: 1
+12/24/2024 02:01:34 AM world_size: 4
+12/24/2024 02:01:35 AM Successfully setup
+12/24/2024 02:01:35 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:01:35 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 02:01:37 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 02:01:37 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:01:37 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 02:01:37 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:01:38 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:01:38 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:01:38 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:01:39 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 02:01:39 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:01:40 AM https://safetensors-convert.hf.space:443 "GET /call/run/04e477cab522418ea1f90530e0d3fbab HTTP/11" 200 None
+12/24/2024 02:01:40 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 02:01:40 AM Successfully loaded model
+12/24/2024 02:01:40 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:01:40 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:01:40 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:01:41 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:01:41 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:06:38 AM device_count: 1
+12/24/2024 02:06:38 AM rank: 1
+12/24/2024 02:06:38 AM world_size: 8
+12/24/2024 02:06:38 AM Successfully setup
+12/24/2024 02:06:38 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:06:39 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 02:06:42 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 02:06:42 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:06:42 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 02:06:42 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:06:43 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:06:43 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:06:43 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:06:44 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 02:06:44 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:06:44 AM https://safetensors-convert.hf.space:443 "GET /call/run/dbcbcf8ef45a4582b379ebed7d7c1592 HTTP/11" 200 None
+12/24/2024 02:06:45 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:06:45 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:06:45 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:06:45 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:06:46 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:08:19 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 02:08:19 AM Successfully loaded model
+12/24/2024 02:16:50 AM device_count: 1
+12/24/2024 02:16:50 AM rank: 1
+12/24/2024 02:16:50 AM world_size: 8
+12/24/2024 02:16:51 AM Successfully setup
+12/24/2024 02:16:51 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:16:51 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 02:16:53 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 02:16:53 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:16:53 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 02:16:53 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:16:54 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:16:54 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:16:54 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:16:55 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 02:16:55 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:16:55 AM https://safetensors-convert.hf.space:443 "GET /call/run/e950ee7826cc43ffa3e4f439bd6868ef HTTP/11" 200 None
+12/24/2024 02:16:56 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:16:56 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:16:56 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 02:16:56 AM Successfully loaded model
+12/24/2024 02:16:56 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:16:56 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:16:57 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:20:09 AM device_count: 1
+12/24/2024 02:20:09 AM rank: 1
+12/24/2024 02:20:09 AM world_size: 8
+12/24/2024 02:20:10 AM Successfully setup
+12/24/2024 02:20:10 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:20:10 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 02:20:12 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 02:20:12 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:20:12 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 02:20:12 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:20:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:20:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:20:13 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:20:14 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 02:20:14 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:20:14 AM https://safetensors-convert.hf.space:443 "GET /call/run/75379bb6bb7b40fc847b9bf82e2faa95 HTTP/11" 200 None
+12/24/2024 02:20:15 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:20:15 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:20:15 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 02:20:15 AM Successfully loaded model
+12/24/2024 02:20:15 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:20:16 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:20:16 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:39:35 AM device_count: 1
+12/24/2024 02:39:35 AM rank: 1
+12/24/2024 02:39:35 AM world_size: 4
+12/24/2024 02:39:35 AM Successfully setup
+12/24/2024 02:39:35 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:39:36 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 02:39:37 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 02:39:37 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:39:38 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 02:39:38 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:39:38 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:39:39 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:39:39 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:39:39 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 02:39:39 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:39:40 AM https://safetensors-convert.hf.space:443 "GET /call/run/2da8d16101b24ca089729763b334c364 HTTP/11" 200 None
+12/24/2024 02:39:40 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 02:39:40 AM Successfully loaded model
+12/24/2024 02:39:41 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:39:41 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:39:41 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:39:41 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:39:41 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:50:17 AM device_count: 2
+12/24/2024 02:50:17 AM rank: 1
+12/24/2024 02:50:17 AM world_size: 4
+12/24/2024 02:50:18 AM Successfully setup
+12/24/2024 02:50:18 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:50:19 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 02:50:20 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 02:50:20 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 02:50:20 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 02:50:21 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:50:21 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:50:21 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:50:21 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:50:22 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 02:50:22 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 02:50:23 AM https://safetensors-convert.hf.space:443 "GET /call/run/bea50fbd5dce43d4aa31f48fb53bc764 HTTP/11" 200 None
+12/24/2024 02:50:23 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 02:50:23 AM Successfully loaded model
+12/24/2024 02:50:23 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 02:50:23 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 02:50:24 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 02:50:24 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 02:50:24 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 03:01:25 AM device_count: 2
+12/24/2024 03:01:25 AM rank: 1
+12/24/2024 03:01:25 AM world_size: 4
+12/24/2024 03:01:26 AM Successfully setup
+12/24/2024 03:01:26 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 03:01:27 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 03:01:28 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 03:01:28 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 03:01:28 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 03:01:29 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 03:01:29 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 03:01:29 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 03:01:29 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 03:01:30 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 03:01:30 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 03:01:31 AM https://safetensors-convert.hf.space:443 "GET /call/run/f81e1c200d414545a02607e9ff35975f HTTP/11" 200 None
+12/24/2024 03:01:31 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 03:01:31 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 03:01:31 AM Successfully loaded model
+12/24/2024 03:01:31 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 03:01:31 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 03:01:32 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 03:01:32 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 03:09:45 AM device_count: 2
+12/24/2024 03:09:45 AM rank: 1
+12/24/2024 03:09:45 AM world_size: 4
+12/24/2024 03:09:46 AM Successfully setup
+12/24/2024 03:09:46 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 03:09:46 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 03:09:48 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 03:09:48 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 03:09:48 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 03:09:48 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 03:09:49 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 03:09:49 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 03:09:49 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 03:09:50 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 03:09:50 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 03:09:50 AM https://safetensors-convert.hf.space:443 "GET /call/run/305df4463ee540cf9f38363312d8183c HTTP/11" 200 None
+12/24/2024 03:09:51 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 03:09:51 AM Successfully loaded model
+12/24/2024 03:09:51 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 03:09:51 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 03:09:51 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 03:09:51 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 03:09:52 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 07:40:05 AM device_count: 2
+12/24/2024 07:40:05 AM rank: 1
+12/24/2024 07:40:05 AM world_size: 8
+12/24/2024 07:40:06 AM Successfully setup
+12/24/2024 07:40:06 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 07:40:07 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/config.json HTTP/11" 200 0
+12/24/2024 07:40:10 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+12/24/2024 07:40:10 AM Starting new HTTPS connection (1): hf-mirror.com:443
+12/24/2024 07:40:10 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf HTTP/11" 200 826
+12/24/2024 07:40:10 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 07:40:11 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 07:40:11 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 07:40:11 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 07:40:12 AM https://safetensors-convert.hf.space:443 "POST /call/run HTTP/11" 200 47
+12/24/2024 07:40:12 AM Starting new HTTPS connection (1): safetensors-convert.hf.space:443
+12/24/2024 07:40:13 AM https://safetensors-convert.hf.space:443 "GET /call/run/0c128825559e4448a69227e84311929a HTTP/11" 200 None
+12/24/2024 07:40:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/main HTTP/11" 200 641
+12/24/2024 07:40:13 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/discussions?p=0 HTTP/11" 200 546
+12/24/2024 07:40:14 AM https://hf-mirror.com:443 "GET /api/models/luodian/llama-7b-hf/commits/refs%2Fpr%2F2 HTTP/11" 200 1129
+12/24/2024 07:40:14 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 07:40:14 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/refs%2Fpr%2F2/model.safetensors.index.json HTTP/11" 200 0
+12/24/2024 07:41:44 AM https://hf-mirror.com:443 "HEAD /luodian/llama-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+12/24/2024 07:41:44 AM Successfully loaded model
+12/25/2024 11:25:45 AM device_count: 1
+12/25/2024 11:25:45 AM rank: 1
+12/25/2024 11:25:45 AM world_size: 16
+12/25/2024 11:25:45 AM Successfully setup
+12/25/2024 11:27:22 AM device_count: 1
+12/25/2024 11:27:22 AM rank: 1
+12/25/2024 11:27:22 AM world_size: 8
+12/25/2024 11:27:22 AM Successfully setup
+12/25/2024 11:27:43 AM Successfully loaded model
+12/25/2024 11:30:29 AM device_count: 1
+12/25/2024 11:30:29 AM rank: 1
+12/25/2024 11:30:29 AM world_size: 8
+12/25/2024 11:30:30 AM Successfully setup
+12/25/2024 11:30:35 AM Successfully loaded model
+12/25/2024 11:32:36 AM device_count: 1
+12/25/2024 11:32:36 AM rank: 1
+12/25/2024 11:32:36 AM world_size: 8
+12/25/2024 11:32:37 AM Successfully setup
+12/25/2024 11:32:42 AM Successfully loaded model
+12/25/2024 11:34:38 AM device_count: 1
+12/25/2024 11:34:38 AM rank: 1
+12/25/2024 11:34:38 AM world_size: 8
+12/25/2024 11:34:39 AM Successfully setup
+12/25/2024 11:34:44 AM Successfully loaded model
+12/25/2024 11:36:38 AM device_count: 1
+12/25/2024 11:36:38 AM rank: 1
+12/25/2024 11:36:38 AM world_size: 8
+12/25/2024 11:36:39 AM Successfully setup
+12/25/2024 11:36:44 AM Successfully loaded model
+12/29/2024 06:15:36 AM device_count: 1
+12/29/2024 06:15:36 AM rank: 1
+12/29/2024 06:15:36 AM world_size: 2
+12/29/2024 06:15:37 AM Successfully setup
+12/29/2024 06:17:09 AM Successfully loaded model
+12/29/2024 06:18:23 AM device_count: 2
+12/29/2024 06:18:23 AM rank: 1
+12/29/2024 06:18:23 AM world_size: 2
+12/29/2024 06:18:23 AM Successfully setup
+12/29/2024 06:18:29 AM Successfully loaded model
+12/29/2024 06:21:31 AM device_count: 2
+12/29/2024 06:21:31 AM rank: 1
+12/29/2024 06:21:31 AM world_size: 4
+12/29/2024 06:21:32 AM Successfully setup
+12/29/2024 06:21:41 AM Successfully loaded model
+12/29/2024 06:51:31 AM device_count: 2
+12/29/2024 06:51:31 AM rank: 1
+12/29/2024 06:51:31 AM world_size: 6
+12/29/2024 06:51:31 AM Successfully setup
+12/29/2024 06:51:36 AM Successfully loaded model
+12/29/2024 07:03:55 AM device_count: 2
+12/29/2024 07:03:55 AM rank: 1
+12/29/2024 07:03:55 AM world_size: 6
+12/29/2024 07:03:57 AM Successfully setup
+12/29/2024 07:04:05 AM Successfully loaded model
+12/29/2024 07:10:59 AM device_count: 2
+12/29/2024 07:10:59 AM rank: 1
+12/29/2024 07:10:59 AM world_size: 6
+12/29/2024 07:11:00 AM Successfully setup
+12/29/2024 07:11:08 AM Successfully loaded model
+12/29/2024 07:13:54 AM device_count: 2
+12/29/2024 07:13:54 AM rank: 1
+12/29/2024 07:13:54 AM world_size: 4
+12/29/2024 07:13:55 AM Successfully setup
+12/29/2024 07:14:04 AM Successfully loaded model
+12/29/2024 07:17:48 AM device_count: 2
+12/29/2024 07:17:48 AM rank: 1
+12/29/2024 07:17:48 AM world_size: 8
+12/29/2024 07:17:49 AM Successfully setup
+12/29/2024 07:17:53 AM Successfully loaded model
+12/29/2024 07:24:48 AM device_count: 1
+12/29/2024 07:24:48 AM rank: 1
+12/29/2024 07:24:48 AM world_size: 2
+12/29/2024 07:24:48 AM Successfully setup
+12/29/2024 07:24:52 AM Successfully loaded model
+12/29/2024 07:38:45 AM device_count: 1
+12/29/2024 07:38:45 AM rank: 1
+12/29/2024 07:38:45 AM world_size: 2
+12/29/2024 07:38:45 AM Successfully setup
+12/29/2024 07:38:49 AM Successfully loaded model
+12/29/2024 07:43:20 AM device_count: 1
+12/29/2024 07:43:20 AM rank: 1
+12/29/2024 07:43:20 AM world_size: 2
+12/29/2024 07:43:20 AM Successfully setup
+12/29/2024 07:43:24 AM Successfully loaded model
+12/29/2024 07:49:15 AM device_count: 1
+12/29/2024 07:49:15 AM rank: 1
+12/29/2024 07:49:15 AM world_size: 4
+12/29/2024 07:49:16 AM Successfully setup
+12/29/2024 07:49:20 AM Successfully loaded model
+12/29/2024 07:53:59 AM device_count: 1
+12/29/2024 07:53:59 AM rank: 1
+12/29/2024 07:53:59 AM world_size: 4
+12/29/2024 07:53:59 AM Successfully setup
+12/29/2024 07:54:03 AM Successfully loaded model
+12/29/2024 08:02:53 AM device_count: 1
+12/29/2024 08:02:53 AM rank: 1
+12/29/2024 08:02:53 AM world_size: 8
+12/29/2024 08:02:53 AM Successfully setup
+12/29/2024 08:04:26 AM Successfully loaded model
+12/29/2024 08:06:48 AM device_count: 1
+12/29/2024 08:06:48 AM rank: 1
+12/29/2024 08:06:48 AM world_size: 12
+12/29/2024 08:06:54 AM Successfully setup
+12/29/2024 08:06:58 AM Successfully loaded model
+12/29/2024 11:36:53 AM device_count: 2
+12/29/2024 11:36:53 AM rank: 1
+12/29/2024 11:36:53 AM world_size: 2
+12/29/2024 11:36:53 AM Successfully setup
+12/29/2024 11:38:23 AM Successfully loaded model
+12/29/2024 11:46:16 AM device_count: 1
+12/29/2024 11:46:16 AM rank: 1
+12/29/2024 11:46:16 AM world_size: 2
+12/29/2024 11:46:21 AM Successfully loaded model
+12/29/2024 11:48:19 AM device_count: 2
+12/29/2024 11:48:19 AM rank: 1
+12/29/2024 11:48:19 AM world_size: 2
+12/29/2024 11:48:24 AM Successfully loaded model
+12/29/2024 12:13:19 PM device_count: 1
+12/29/2024 12:13:19 PM rank: 1
+12/29/2024 12:13:19 PM world_size: 4
+12/29/2024 12:13:28 PM Successfully loaded model
+12/29/2024 12:17:19 PM device_count: 1
+12/29/2024 12:17:19 PM rank: 1
+12/29/2024 12:17:19 PM world_size: 4
+12/29/2024 12:17:28 PM Successfully loaded model
+12/29/2024 03:06:46 PM device_count: 1
+12/29/2024 03:06:46 PM rank: 1
+12/29/2024 03:06:46 PM world_size: 4
+12/30/2024 06:07:44 AM device_count: 1
+12/30/2024 06:07:44 AM rank: 1
+12/30/2024 06:07:44 AM world_size: 4
+12/30/2024 06:08:37 AM Successfully loaded model
+12/30/2024 06:13:31 AM device_count: 1
+12/30/2024 06:13:31 AM rank: 1
+12/30/2024 06:13:31 AM world_size: 4
+12/30/2024 06:13:43 AM Successfully loaded model
+12/30/2024 11:08:37 AM device_count: 2
+12/30/2024 11:08:37 AM rank: 1
+12/30/2024 11:08:37 AM world_size: 2
+12/30/2024 11:10:08 AM Successfully loaded model
+12/30/2024 11:49:17 AM device_count: 1
+12/30/2024 11:49:17 AM rank: 1
+12/30/2024 11:49:17 AM world_size: 2
+12/30/2024 11:50:47 AM Successfully loaded model
+12/30/2024 11:55:22 AM device_count: 1
+12/30/2024 11:55:22 AM rank: 1
+12/30/2024 11:55:22 AM world_size: 12
+12/30/2024 11:57:06 AM Successfully loaded model

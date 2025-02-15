@@ -1,0 +1,4 @@
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Rank [0]: using device 0, block_to_group_rank_map: {0: [0], 1: [0], 2: [0], 3: [0], 4: [0], 5: [0], 6: [0], 7: [0]}.
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:17<04:06, 17.64s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:35<03:49, 17.64s/it]slurmstepd: error: *** STEP 166077.1 ON dgx-35 CANCELLED AT 2025-01-02T05:44:38 ***

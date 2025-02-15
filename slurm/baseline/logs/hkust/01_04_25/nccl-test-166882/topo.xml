@@ -1,0 +1,21 @@
+<system version="1">
+  <cpu host_hash="0x384f743ce020a256" numaid="0" affinity="00000000,000000ff,ffffffff,ffff0000,00000000,00ffffff,ffffffff" arch="x86_64" vendor="GenuineIntel" familyid="6" modelid="143">
+    <pci busid="0000:16:00.0" class="0x060400" vendor="0x15b3" device="0x1979" subsystem_vendor="0x0000" subsystem_device="0x0000" link_speed="32.0 GT/s PCIe" link_width="16">
+      <pci busid="0000:18:00.0" class="0x020700" vendor="0x15b3" device="0x1021" subsystem_vendor="0x15b3" subsystem_device="0x0050" link_speed="32.0 GT/s PCIe" link_width="16">
+        <nic>
+          <net name="mlx5_0" dev="0" speed="400000" port="1" latency="0.000000" guid="0xd47f0a0003c288a0" maxconn="131072" gdr="1"/>
+        </nic>
+      </pci>
+      <pci busid="0000:19:00.0" class="0x060400" vendor="0x15b3" device="0x1979" subsystem_vendor="0x0000" subsystem_device="0x0000" link_speed="32.0 GT/s PCIe" link_width="16">
+        <pci busid="0000:1b:00.0" class="0x030200" vendor="0x10de" device="0x2324" subsystem_vendor="0x10de" subsystem_device="0x17a6" link_speed="32.0 GT/s PCIe" link_width="16">
+          <gpu dev="0" sm="90" rank="0" gdr="1">
+            <nvlink target="0000:08:00.0" count="2" tclass="0x068000"/>
+            <nvlink target="0000:0a:00.0" count="2" tclass="0x068000"/>
+            <nvlink target="0000:09:00.0" count="2" tclass="0x068000"/>
+            <nvlink target="0000:07:00.0" count="2" tclass="0x068000"/>
+          </gpu>
+        </pci>
+      </pci>
+    </pci>
+  </cpu>
+</system>

@@ -1,0 +1,211 @@
+Rank [5]: Total nodes: 2, using device 1, block_to_group_rank_map: {0: [0, 4], 1: [1, 5], 2: [2, 6], 3: [3, 7], 4: [0, 4], 5: [1, 5], 6: [2, 6], 7: [3, 7]}.
+[rank5]:[W102 07:15:59.229814644 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 5]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+dgx-39:3583531:3583531 [1] NCCL INFO cudaDriverVersion 12020
+dgx-39:3583531:3583531 [1] NCCL INFO Bootstrap : Using ibp24s0:10.23.1.61<0>
+dgx-39:3583531:3583531 [1] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
+dgx-39:3583531:3583531 [1] NCCL INFO NET/Plugin: Using internal network plugin.
+dgx-39:3583531:3587865 [1] NCCL INFO NCCL_IB_HCA set to mlx5_0
+dgx-39:3583531:3587865 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB ibp24s0:10.23.1.61<0>
+dgx-39:3583531:3587865 [1] NCCL INFO Using non-device net plugin version 0
+dgx-39:3583531:3587865 [1] NCCL INFO Using network IB
+dgx-39:3583531:3587865 [1] NCCL INFO ncclCommInitRank comm 0x836df60 rank 5 nranks 8 cudaDev 1 nvmlDev 1 busId 43000 commId 0x1ba77d6a45ec8f0e - Init START
+dgx-39:3583531:3587865 [1] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
+dgx-39:3583531:3587865 [1] NCCL INFO NCCL_NET_GDR_LEVEL set by environment to PHB
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 52000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 61000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 52000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 61000 / HCA 0 (distance 4 <= 6), read 0
+dgx-39:3583531:3587865 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff,ffff0000,00000000,0000000f,ffffffff
+dgx-39:3583531:3587865 [1] NCCL INFO comm 0x836df60 rank 5 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+dgx-39:3583531:3587865 [1] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4 [2] 6/-1/-1->5->4 [3] 6/-1/-1->5->4
+dgx-39:3583531:3587865 [1] NCCL INFO P2P Chunksize set to 131072
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1551f4005e28
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 00/0 : 5[1] -> 0[0] [send] via NET/IB/0(4)/GDRDMA
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1551f4005f18
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 01/0 : 5[1] -> 0[0] [send] via NET/IB/0(4)/GDRDMA
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1551f4006008
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 02/0 : 5[1] -> 0[0] [send] via NET/IB/0(4)/GDRDMA
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1551f40060f8
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 03/0 : 5[1] -> 0[0] [send] via NET/IB/0(4)/GDRDMA
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 0 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec005db0
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 1 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec005e28
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 2 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec005ea0
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 3 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec005f18
+dgx-39:3583531:3587865 [1] NCCL INFO Connected all rings
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 4 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec005f90
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 5 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006008
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 6 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006080
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy recv connection 7 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec0060f8
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 00/0 : 5[1] -> 6[2] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 8 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006170
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 01/0 : 5[1] -> 6[2] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 9 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec0061e8
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 02/0 : 5[1] -> 6[2] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 10 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006260
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 03/0 : 5[1] -> 6[2] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 11 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec0062d8
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 00/0 : 5[1] -> 4[0] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 12 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006350
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 01/0 : 5[1] -> 4[0] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 13 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec0063c8
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 02/0 : 5[1] -> 4[0] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 14 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006440
+dgx-39:3583531:3587865 [1] NCCL INFO Channel 03/0 : 5[1] -> 4[0] via P2P/CUMEM
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 15 from local rank 1, transport 0
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec0064b8
+dgx-39:3583531:3587865 [1] NCCL INFO Connected all trees
+dgx-39:3583531:3587865 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+dgx-39:3583531:3587865 [1] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+dgx-39:3583531:3587962 [1] NCCL INFO New proxy send connection 16 from local rank 1, transport 2
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006530
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 1
+dgx-39:3583531:3587865 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1551f4006c38
+dgx-39:3583531:3587865 [1] NCCL INFO ncclCommInitRank comm 0x836df60 rank 5 nranks 8 cudaDev 1 nvmlDev 1 busId 43000 commId 0x1ba77d6a45ec8f0e - Init COMPLETE
+Rank [5]: block_names: ['block_0_rank_0', 'block_1_rank_0', 'block_2_rank_0', 'block_3_rank_0', 'block_4_rank_0', 'block_5_rank_0', 'block_6_rank_0', 'block_7_rank_0']
+Rank [5]: Received model_metadata: {'block_shape': torch.Size([8622081024])}
+Rank [5]: Preparing GPU blocks...
+Rank [5]: Total 2 blocks in device 1.
+Rank [5]: Verifying block 1, 0.0
+Rank [5]: Verifying block 5, 0.0
+Rank [5]: broadcasting Block ID 1 calling from rank 1 for group [1, 5]...
+dgx-39:3583531:3588838 [1] NCCL INFO Using non-device net plugin version 0
+dgx-39:3583531:3588838 [1] NCCL INFO Using network IB
+dgx-39:3583531:3588838 [1] NCCL INFO ncclCommInitRank comm 0x8b50080 rank 1 nranks 2 cudaDev 1 nvmlDev 1 busId 43000 commId 0xeecda53c23fd4e8e - Init START
+dgx-39:3583531:3588838 [1] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
+dgx-39:3583531:3588838 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff,ffff0000,00000000,0000000f,ffffffff
+dgx-39:3583531:3588838 [1] NCCL INFO comm 0x8b50080 rank 1 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+dgx-39:3583531:3588838 [1] NCCL INFO Trees [0] -1/-1/-1->1->0 [1] -1/-1/-1->1->0 [2] 0/-1/-1->1->-1 [3] 0/-1/-1->1->-1
+dgx-39:3583531:3588838 [1] NCCL INFO P2P Chunksize set to 131072
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8005db0
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 00/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8005e28
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 01/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy recv connection 2 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8005ea0
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 02/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy recv connection 3 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8005f18
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 03/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy send connection 4 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8005f90
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy send connection 5 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8006008
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy send connection 6 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8006080
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588838 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy send connection 7 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a80060f8
+dgx-39:3583531:3588838 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588844 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2442 mtu 5 LID 557 fifoRkey=0x172fef fifoLkey=0x172fef
+dgx-39:3583531:3588844 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2443 mtu 5 LID 557 fifoRkey=0x16ba7a fifoLkey=0x16ba7a
+dgx-39:3583531:3588844 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2453 mtu 5 LID 557 fifoRkey=0x174506 fifoLkey=0x174506
+dgx-39:3583531:3588844 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2456 mtu 5 LID 557 fifoRkey=0x15621d fifoLkey=0x15621d
+dgx-39:3583531:3588838 [1] NCCL INFO Connected all rings
+dgx-39:3583531:3588838 [1] NCCL INFO Connected all trees
+dgx-39:3583531:3588838 [1] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+dgx-39:3583531:3588838 [1] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+dgx-39:3583531:3588844 [1] NCCL INFO New proxy send connection 8 from local rank 0, transport 2
+dgx-39:3583531:3588838 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541a8006170
+Rank [5]: broadcasting Block ID 5 calling from rank 1 for group [1, 5]...
+dgx-39:3583531:3588838 [1] NCCL INFO ncclCommInitRank comm 0x8b50080 rank 1 nranks 2 cudaDev 1 nvmlDev 1 busId 43000 commId 0xeecda53c23fd4e8e - Init COMPLETE
+dgx-39:3583531:3588854 [1] NCCL INFO Using non-device net plugin version 0
+dgx-39:3583531:3588854 [1] NCCL INFO Using network IB
+dgx-39:3583531:3588854 [1] NCCL INFO ncclCommInitRank comm 0x8b651e0 rank 1 nranks 2 cudaDev 1 nvmlDev 1 busId 43000 commId 0x878bf912ad11ce33 - Init START
+dgx-39:3583531:3588854 [1] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
+dgx-39:3583531:3588854 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff,ffff0000,00000000,0000000f,ffffffff
+dgx-39:3583531:3588854 [1] NCCL INFO comm 0x8b651e0 rank 1 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+dgx-39:3583531:3588854 [1] NCCL INFO Trees [0] -1/-1/-1->1->0 [1] -1/-1/-1->1->0 [2] 0/-1/-1->1->-1 [3] 0/-1/-1->1->-1
+dgx-39:3583531:3588854 [1] NCCL INFO P2P Chunksize set to 131072
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194005db0
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 00/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194005e28
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 01/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy recv connection 2 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194005ea0
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 02/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 0
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy recv connection 3 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194005f18
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 03/0 : 0[1] -> 1[1] [receive] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy send connection 4 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194005f90
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy send connection 5 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194006008
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy send connection 6 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194006080
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588854 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 6 <= 6), read 1
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy send connection 7 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x1541940060f8
+dgx-39:3583531:3588854 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[1] [send] via NET/IB/0/GDRDMA
+dgx-39:3583531:3588868 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2497 mtu 5 LID 557 fifoRkey=0x165f1d fifoLkey=0x165f1d
+dgx-39:3583531:3588868 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2500 mtu 5 LID 557 fifoRkey=0x167737 fifoLkey=0x167737
+dgx-39:3583531:3588868 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2505 mtu 5 LID 557 fifoRkey=0x17e0a1 fifoLkey=0x17e0a1
+dgx-39:3583531:3588868 [1] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 2508 mtu 5 LID 557 fifoRkey=0x1808c8 fifoLkey=0x1808c8
+dgx-39:3583531:3588854 [1] NCCL INFO Connected all rings
+dgx-39:3583531:3588854 [1] NCCL INFO Connected all trees
+dgx-39:3583531:3588854 [1] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+dgx-39:3583531:3588854 [1] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+dgx-39:3583531:3588868 [1] NCCL INFO New proxy send connection 8 from local rank 0, transport 2
+dgx-39:3583531:3588854 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x154194006170
+dgx-39:3583531:3588854 [1] NCCL INFO ncclCommInitRank comm 0x8b651e0 rank 1 nranks 2 cudaDev 1 nvmlDev 1 busId 43000 commId 0x878bf912ad11ce33 - Init COMPLETE
+dgx-39:3583531:3588868 [1] NCCL INFO [Service thread] Connection closed by localRank 0
+dgx-39:3583531:3589017 [1] NCCL INFO comm 0x8b651e0 rank 1 nranks 2 cudaDev 1 busId 43000 - Abort COMPLETE
+dgx-39:3583531:3588844 [1] NCCL INFO [Service thread] Connection closed by localRank 0
+dgx-39:3583531:3589025 [1] NCCL INFO comm 0x8b50080 rank 1 nranks 2 cudaDev 1 busId 43000 - Abort COMPLETE
+dgx-39:3583531:3587962 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+dgx-39:3583531:3589030 [1] NCCL INFO comm 0x836df60 rank 5 nranks 8 cudaDev 1 busId 43000 - Abort COMPLETE
+Rank [5]: verifying block 1 with -0.0002689361572265625
+Rank [5]: verifying block 5 with 0.006683349609375

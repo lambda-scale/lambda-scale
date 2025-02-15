@@ -1,0 +1,543 @@
+--------------------------
+module loading cuda12.2...
+--------------------------
+
+--------------------------------------------
+Exporting paths...
+--------------------------------------------
+
+------------------------------------------
+Exporting 3rd-lib bin, include, ld path...
+------------------------------------------
+
+------------------------------------------
+Cd to /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace
+------------------------------------------
+
+-----------------------------
+Activate conda environment...
+-----------------------------
+
+-----------------------------------------
+Setting NCCL envs nccl vars...
+-----------------------------------------
+
+-----------------------------------------
+Setting NCCL master node...
+-----------------------------------------
+Nodelist:dgx-[33,35,38,42-43,46-48,50-51,54-55]
+Master hostname:, port number:12358
+First hostname:dgx-33
+Second hostname:dgx-33
+
+-----------------------------------------
+Node: dgx-33 nvidia-smi topology...
+-----------------------------------------
+	[4mGPU0	NIC0	NIC1	NIC2	NIC3	NIC4	NIC5	NIC6	NIC7	NIC8	NIC9	NIC10	NIC11	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+GPU0	 X 	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-1,112-113	0		N/A
+NIC0	PXB	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC1	SYS	SYS	 X 	PIX	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC2	SYS	SYS	PIX	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC3	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC4	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC5	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC6	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS				
+NIC7	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS				
+NIC8	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS				
+NIC9	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS				
+NIC10	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS				
+NIC11	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 				
+
+Legend:
+
+  X    = Self
+  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)
+  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node
+  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)
+  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)
+  PIX  = Connection traversing at most a single PCIe bridge
+  NV#  = Connection traversing a bonded set of # NVLinks
+
+NIC Legend:
+
+  NIC0: mlx5_0
+  NIC1: mlx5_1
+  NIC2: mlx5_2
+  NIC3: mlx5_3
+  NIC4: mlx5_4
+  NIC5: mlx5_5
+  NIC6: mlx5_6
+  NIC7: mlx5_7
+  NIC8: mlx5_8
+  NIC9: mlx5_9
+  NIC10: mlx5_10
+  NIC11: mlx5_11
+
+
+
+-----------------------------------------
+Node:dgx-35 nvidia-smi topology...
+-----------------------------------------
+	[4mGPU0	NIC0	NIC1	NIC2	NIC3	NIC4	NIC5	NIC6	NIC7	NIC8	NIC9	NIC10	NIC11	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+GPU0	 X 	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-1,112-113	0		N/A
+NIC0	PXB	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC1	SYS	SYS	 X 	PIX	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC2	SYS	SYS	PIX	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC3	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC4	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC5	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC6	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS				
+NIC7	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS				
+NIC8	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS				
+NIC9	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS				
+NIC10	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS				
+NIC11	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 				
+
+Legend:
+
+  X    = Self
+  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)
+  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node
+  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)
+  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)
+  PIX  = Connection traversing at most a single PCIe bridge
+  NV#  = Connection traversing a bonded set of # NVLinks
+
+NIC Legend:
+
+  NIC0: mlx5_0
+  NIC1: mlx5_1
+  NIC2: mlx5_2
+  NIC3: mlx5_3
+  NIC4: mlx5_4
+  NIC5: mlx5_5
+  NIC6: mlx5_6
+  NIC7: mlx5_7
+  NIC8: mlx5_8
+  NIC9: mlx5_9
+  NIC10: mlx5_10
+  NIC11: mlx5_11
+
+
+
+-----------------------------------------
+Node:dgx-33 ibstat...
+-----------------------------------------
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0714
+	System image GUID: 0x946dae0300ff0714
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 317
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0714
+		Link layer: InfiniBand
+CA 'mlx5_1'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c203000449b0
+	System image GUID: 0xa088c203000449b0
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 92
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c203000449b0
+		Link layer: InfiniBand
+CA 'mlx5_10'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0e18
+	System image GUID: 0x946dae0300ff0e18
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 337
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0e18
+		Link layer: InfiniBand
+CA 'mlx5_11'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0e10
+	System image GUID: 0x946dae0300ff0e10
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 335
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0e10
+		Link layer: InfiniBand
+CA 'mlx5_2'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c203000449b1
+	System image GUID: 0xa088c203000449b0
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 100
+		Base lid: 0
+		LMC: 0
+		SM lid: 0
+		Capability mask: 0x00010000
+		Port GUID: 0x40c107fffe04acc7
+		Link layer: Ethernet
+CA 'mlx5_3'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff071c
+	System image GUID: 0x946dae0300ff071c
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 328
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff071c
+		Link layer: InfiniBand
+CA 'mlx5_4'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0718
+	System image GUID: 0x946dae0300ff0718
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 327
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0718
+		Link layer: InfiniBand
+CA 'mlx5_5'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0710
+	System image GUID: 0x946dae0300ff0710
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 331
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0710
+		Link layer: InfiniBand
+CA 'mlx5_6'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0e14
+	System image GUID: 0x946dae0300ff0e14
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 332
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0e14
+		Link layer: InfiniBand
+CA 'mlx5_7'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c20300043ca0
+	System image GUID: 0xa088c20300043ca0
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 97
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c20300043ca0
+		Link layer: InfiniBand
+CA 'mlx5_8'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c20300043ca1
+	System image GUID: 0xa088c20300043ca0
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 100
+		Base lid: 0
+		LMC: 0
+		SM lid: 0
+		Capability mask: 0x00010000
+		Port GUID: 0x40c107fffe04acc7
+		Link layer: Ethernet
+CA 'mlx5_9'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0e1c
+	System image GUID: 0x946dae0300ff0e1c
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 339
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0e1c
+		Link layer: InfiniBand
+
+
+-----------------------------------------
+Node:dgx-35 ibstat...
+-----------------------------------------
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c203000a7fd4
+	System image GUID: 0xa088c203000a7fd4
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 494
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c203000a7fd4
+		Link layer: InfiniBand
+CA 'mlx5_1'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c20300043c20
+	System image GUID: 0xa088c20300043c20
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 89
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c20300043c20
+		Link layer: InfiniBand
+CA 'mlx5_10'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0f78
+	System image GUID: 0x946dae0300ff0f78
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 280
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0f78
+		Link layer: InfiniBand
+CA 'mlx5_11'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0f70
+	System image GUID: 0x946dae0300ff0f70
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 282
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0f70
+		Link layer: InfiniBand
+CA 'mlx5_2'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c20300043c21
+	System image GUID: 0xa088c20300043c20
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 100
+		Base lid: 0
+		LMC: 0
+		SM lid: 0
+		Capability mask: 0x00010000
+		Port GUID: 0xe8debafffe7c4a16
+		Link layer: Ethernet
+CA 'mlx5_3'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c203000a7fdc
+	System image GUID: 0xa088c203000a7fdc
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 268
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c203000a7fdc
+		Link layer: InfiniBand
+CA 'mlx5_4'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c203000a7fd8
+	System image GUID: 0xa088c203000a7fd8
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 271
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c203000a7fd8
+		Link layer: InfiniBand
+CA 'mlx5_5'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c203000a7fd0
+	System image GUID: 0xa088c203000a7fd0
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 272
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c203000a7fd0
+		Link layer: InfiniBand
+CA 'mlx5_6'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0f74
+	System image GUID: 0x946dae0300ff0f74
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 273
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0f74
+		Link layer: InfiniBand
+CA 'mlx5_7'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c20300048210
+	System image GUID: 0xa088c20300048210
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 91
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0xa088c20300048210
+		Link layer: InfiniBand
+CA 'mlx5_8'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0xa088c20300048211
+	System image GUID: 0xa088c20300048210
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 100
+		Base lid: 0
+		LMC: 0
+		SM lid: 0
+		Capability mask: 0x00010000
+		Port GUID: 0xe8debafffe7c4a16
+		Link layer: Ethernet
+CA 'mlx5_9'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.39.3560
+	Hardware version: 0
+	Node GUID: 0x946dae0300ff0f7c
+	System image GUID: 0x946dae0300ff0f7c
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 400
+		Base lid: 274
+		LMC: 0
+		SM lid: 1
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ff0f7c
+		Link layer: InfiniBand
+
+
+-------------------------------------------------------
+Start nccl_bcast.py with llama-13b and blocks 1
+-------------------------------------------------------

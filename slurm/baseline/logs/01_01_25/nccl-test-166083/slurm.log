@@ -1,0 +1,201 @@
+--------------------------
+module loading cuda12.2...
+--------------------------
+
+--------------------------------------------
+Exporting paths...
+--------------------------------------------
+
+------------------------------------------
+Exporting 3rd-lib bin, include, ld path...
+------------------------------------------
+
+------------------------------------------
+Cd to /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace
+------------------------------------------
+
+-----------------------------
+Activate conda environment...
+-----------------------------
+
+-----------------------------------------
+Setting NCCL envs nccl vars...
+-----------------------------------------
+
+-----------------------------------------
+nvidia-smi topology...
+-----------------------------------------
+
+	[4mGPU0	GPU1	NIC0	NIC1	NIC2	NIC3	NIC4	NIC5	NIC6	NIC7	NIC8	NIC9	NIC10	NIC11	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+	[4mGPU0	GPU1	NIC0	NIC1	NIC2	NIC3	NIC4	NIC5	NIC6	NIC7	NIC8	NIC9	NIC10	NIC11	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+	[4mGPU0	GPU1	NIC0	NIC1	NIC2	NIC3	NIC4	NIC5	NIC6	NIC7	NIC8	NIC9	NIC10	NIC11	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+	[4mGPU0	GPU1	NIC0	NIC1	NIC2	NIC3	NIC4	NIC5	NIC6	NIC7	NIC8	NIC9	NIC10	NIC11	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+GPU0	 X 	NV8	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+GPU0	 X 	NV8	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+GPU0	 X 	NV8	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+GPU0	 X 	NV8	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+GPU1	NV8	 X 	SYS	SYS	SYS	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+NIC0	PXB	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC1	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC2	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC3	SYS	PXB	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC4	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC5	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC6	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS				
+NIC7	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS				
+NIC8	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS				
+NIC9	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS				
+NIC10	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS				
+NIC11	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 				
+
+Legend:
+
+  X    = Self
+  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)
+  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node
+  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)
+  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)
+  PIX  = Connection traversing at most a single PCIe bridge
+  NV#  = Connection traversing a bonded set of # NVLinks
+
+NIC Legend:
+
+  NIC0: mlx5_0
+  NIC1: mlx5_1
+  NIC2: mlx5_2
+  NIC3: mlx5_3
+  NIC4: mlx5_4
+  NIC5: mlx5_5
+  NIC6: mlx5_6
+  NIC7: mlx5_7
+  NIC8: mlx5_8
+  NIC9: mlx5_9
+  NIC10: mlx5_10
+  NIC11: mlx5_11
+
+GPU1	NV8	 X 	SYS	SYS	SYS	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+NIC0	PXB	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC1	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC2	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC3	SYS	PXB	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC4	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC5	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC6	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS				
+NIC7	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS				
+NIC8	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS				
+NIC9	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS				
+NIC10	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS				
+NIC11	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 				
+
+Legend:
+
+  X    = Self
+  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)
+  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node
+  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)
+  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)
+  PIX  = Connection traversing at most a single PCIe bridge
+  NV#  = Connection traversing a bonded set of # NVLinks
+
+NIC Legend:
+
+  NIC0: mlx5_0
+  NIC1: mlx5_1
+  NIC2: mlx5_2
+  NIC3: mlx5_3
+  NIC4: mlx5_4
+  NIC5: mlx5_5
+  NIC6: mlx5_6
+  NIC7: mlx5_7
+  NIC8: mlx5_8
+  NIC9: mlx5_9
+  NIC10: mlx5_10
+  NIC11: mlx5_11
+
+GPU1	NV8	 X 	SYS	SYS	SYS	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+NIC0	PXB	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC1	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC2	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC3	SYS	PXB	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC4	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC5	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC6	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS				
+NIC7	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS				
+NIC8	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS				
+NIC9	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS				
+NIC10	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS				
+NIC11	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 				
+
+Legend:
+
+  X    = Self
+  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)
+  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node
+  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)
+  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)
+  PIX  = Connection traversing at most a single PCIe bridge
+  NV#  = Connection traversing a bonded set of # NVLinks
+
+NIC Legend:
+
+  NIC0: mlx5_0
+  NIC1: mlx5_1
+  NIC2: mlx5_2
+  NIC3: mlx5_3
+  NIC4: mlx5_4
+  NIC5: mlx5_5
+  NIC6: mlx5_6
+  NIC7: mlx5_7
+  NIC8: mlx5_8
+  NIC9: mlx5_9
+  NIC10: mlx5_10
+  NIC11: mlx5_11
+
+GPU1	NV8	 X 	SYS	SYS	SYS	PXB	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	0-9,112-121	0		N/A
+NIC0	PXB	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC1	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC2	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC3	SYS	PXB	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC4	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC5	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS	SYS				
+NIC6	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS	SYS	SYS	SYS				
+NIC7	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	PIX	SYS	SYS	SYS				
+NIC8	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	PIX	 X 	SYS	SYS	SYS				
+NIC9	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS	SYS				
+NIC10	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 	SYS				
+NIC11	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	SYS	 X 				
+
+Legend:
+
+  X    = Self
+  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)
+  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node
+  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)
+  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)
+  PIX  = Connection traversing at most a single PCIe bridge
+  NV#  = Connection traversing a bonded set of # NVLinks
+
+NIC Legend:
+
+  NIC0: mlx5_0
+  NIC1: mlx5_1
+  NIC2: mlx5_2
+  NIC3: mlx5_3
+  NIC4: mlx5_4
+  NIC5: mlx5_5
+  NIC6: mlx5_6
+  NIC7: mlx5_7
+  NIC8: mlx5_8
+  NIC9: mlx5_9
+  NIC10: mlx5_10
+  NIC11: mlx5_11
+
+-----------------------------------------
+Setting NCCL master node...
+-----------------------------------------
+Nodelist:dgx-[35,39]
+Master hostname:, port number:12358
+
+-------------------------------------------------------
+Start nccl_bcast.py with llama-7b and blocks 4
+-------------------------------------------------------

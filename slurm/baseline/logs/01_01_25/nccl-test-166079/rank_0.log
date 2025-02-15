@@ -1,0 +1,237 @@
+Rank [0]: Total nodes: 2, using device 0, block_to_group_rank_map: {0: [0, 2], 1: [1, 3], 2: [0, 2], 3: [1, 3]}.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:38<00:38, 38.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:52<00:00, 24.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:52<00:00, 26.40s/it]
+Rank [0]: 25.10(GB) memory occupied by model
+Rank [0]: block_names: [SharedMemory('block_0_rank_0', size=6738415616), SharedMemory('block_1_rank_0', size=6738415616), SharedMemory('block_2_rank_0', size=6738415616), SharedMemory('block_3_rank_0', size=6738415616)]
+[rank0]:[W102 06:11:28.795167622 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+dgx-35:1154288:1154288 [0] NCCL INFO Bootstrap : Using ibp24s0:10.23.1.29<0>
+dgx-35:1154288:1154288 [0] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
+dgx-35:1154288:1154288 [0] NCCL INFO NET/Plugin: Using internal network plugin.
+dgx-35:1154288:1154288 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.21.5+cuda11.8
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:10.23.1.29<0>
+dgx-35:1154288:1155864 [0] NCCL INFO Using non-device net plugin version 0
+dgx-35:1154288:1155864 [0] NCCL INFO Using network IB
+dgx-35:1154288:1155864 [0] NCCL INFO ncclCommInitRank comm 0x935d380 rank 0 nranks 4 cudaDev 0 nvmlDev 0 busId 1b000 commId 0x91a99ddd614c84b7 - Init START
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 1 'mlx5_1'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 2 'mlx5_2'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 3 'mlx5_3'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 4 'mlx5_4'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 5 'mlx5_5'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 6 'mlx5_6'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 7 'mlx5_7'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 8 'mlx5_8'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 9 'mlx5_9'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 10 'mlx5_10'
+dgx-35:1154288:1155864 [0] NCCL INFO NET/IB : GPU Direct RDMA Enabled for HCA 11 'mlx5_11'
+dgx-35:1154288:1155864 [0] NCCL INFO NCCL_NET_GDR_LEVEL set by environment to PHB
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 3 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 43000 / HCA 3 (distance 4 <= 6), read 0
+dgx-35:1154288:1155864 [0] NCCL INFO Setting affinity for GPU 0 to 03ff0000,00000000,00000000,000003ff
+dgx-35:1154288:1155864 [0] NCCL INFO comm 0x935d380 rank 0 nRanks 4 nNodes 2 localRanks 2 localRank 0 MNNVL 0
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 00/08 :    0   1   2   3
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 01/08 :    0   3   2   1
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 02/08 :    0   1   2   3
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 03/08 :    0   3   2   1
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 04/08 :    0   1   2   3
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 05/08 :    0   3   2   1
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 06/08 :    0   1   2   3
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 07/08 :    0   3   2   1
+dgx-35:1154288:1155864 [0] NCCL INFO Trees [0] 1/2/-1->0->-1 [1] -1/-1/-1->0->1 [2] 1/2/-1->0->-1 [3] -1/-1/-1->0->1 [4] 1/-1/-1->0->2 [5] -1/-1/-1->0->1 [6] 1/-1/-1->0->2 [7] -1/-1/-1->0->1
+dgx-35:1154288:1155864 [0] NCCL INFO P2P Chunksize set to 131072
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54005e40
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 00/0 : 3[1] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54005eb8
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 02/0 : 3[1] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 2 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54005f30
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 04/0 : 3[1] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 3 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54005fa8
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 06/0 : 3[1] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 4 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006020
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 5 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006098
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 6 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006110
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 7 from local rank 1, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 8 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006200
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 9 from local rank 1, transport 2
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 10 from local rank 1, transport 2
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 11 from local rank 1, transport 2
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 12 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b540063e0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 13 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006458
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 14 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b540064d0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 15 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006548
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 1
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006008
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 01/0 : 0[0] -> 3[1] [send] via NET/IB/3(1)/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 1
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec0060f8
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 03/0 : 0[0] -> 3[1] [send] via NET/IB/3(1)/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 1
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec0061e8
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 05/0 : 0[0] -> 3[1] [send] via NET/IB/3(1)/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 1
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006350
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 07/0 : 0[0] -> 3[1] [send] via NET/IB/3(1)/GDRDMA
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4682 mtu 5 LID 494 fifoRkey=0x1704c4 fifoLkey=0x1704c4
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4685 mtu 5 LID 494 fifoRkey=0x179250 fifoLkey=0x179250
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4686 mtu 5 LID 494 fifoRkey=0x167333 fifoLkey=0x167333
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4687 mtu 5 LID 494 fifoRkey=0x168c4d fifoLkey=0x168c4d
+dgx-35:1154288:1155864 [0] NCCL INFO Connected all rings
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 16 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b540065c0
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 17 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006638
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 18 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b540066b0
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/CUMEM
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 19 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006728
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 20 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b540067a0
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 00/0 : 2[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 21 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006818
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 02/0 : 2[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 22 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006890
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 04/0 : 2[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 0
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 23 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006908
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 06/0 : 2[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 1
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 24 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006980
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 00/0 : 0[0] -> 2[0] [send] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 1
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 25 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b540069f8
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 02/0 : 0[0] -> 2[0] [send] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 1
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 26 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006a70
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 04/0 : 0[0] -> 2[0] [send] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 0 (distance 4 <= 6), read 1
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 27 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006ae8
+dgx-35:1154288:1155864 [0] NCCL INFO Channel 06/0 : 0[0] -> 2[0] [send] via NET/IB/0/GDRDMA
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 28 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006b60
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 29 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006bd8
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 30 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006c50
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy recv connection 31 from local rank 0, transport 0
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006cc8
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4694 mtu 5 LID 494 fifoRkey=0x16d696 fifoLkey=0x16d696
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4695 mtu 5 LID 494 fifoRkey=0x164f0e fifoLkey=0x164f0e
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4696 mtu 5 LID 494 fifoRkey=0x16a665 fifoLkey=0x16a665
+dgx-35:1154288:1155965 [0] NCCL INFO NET/IB: NCCL Dev 0 IbDev 0 Port 1 qpn 4697 mtu 5 LID 494 fifoRkey=0x1634f3 fifoLkey=0x1634f3
+dgx-35:1154288:1155864 [0] NCCL INFO Connected all trees
+dgx-35:1154288:1155864 [0] NCCL INFO threadThresholds 8/8/64 | 32/8/64 | 512 | 512
+dgx-35:1154288:1155864 [0] NCCL INFO 8 coll channels, 8 collnet channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 32 from local rank 0, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x154b54006d40
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 1
+dgx-35:1154288:1155864 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 1b000 / HCA 3 (distance 4 <= 6), read 1
+dgx-35:1154288:1155965 [0] NCCL INFO New proxy send connection 33 from local rank 1, transport 2
+dgx-35:1154288:1155864 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x1551ec006d28
+dgx-35:1154288:1155864 [0] NCCL INFO ncclCommInitRank comm 0x935d380 rank 0 nranks 4 cudaDev 0 nvmlDev 0 busId 1b000 commId 0x91a99ddd614c84b7 - Init COMPLETE
+Rank [0]: Received model_metadata: {'block_shape': torch.Size([1684603904])}
+
+dgx-35:1154288:1155969 [0] transport/net_ib.cc:1909 NCCL WARN NET/IB : Got completion from peer 10.23.1.65<60166> with status=12 opcode=129 len=16 vendor err 129 (Recv)
+dgx-35:1154288:1155969 [0] NCCL INFO transport/net.cc:1302 -> 6
+dgx-35:1154288:1155969 [0] NCCL INFO proxy.cc:698 -> 6
+dgx-35:1154288:1155969 [0] NCCL INFO proxy.cc:878 -> 6 [Progress Thread]
+
+dgx-35:1154288:1155969 [0] transport/net_ib.cc:1909 NCCL WARN NET/IB : Got completion from peer 10.23.1.65<60166> with status=5 opcode=129 len=0 vendor err 244 (Recv)
+dgx-35:1154288:1155969 [0] NCCL INFO transport/net.cc:1302 -> 6
+dgx-35:1154288:1155969 [0] NCCL INFO proxy.cc:698 -> 6
+dgx-35:1154288:1155969 [0] NCCL INFO proxy.cc:878 -> 6 [Progress Thread]
+[rank0]:[E102 06:11:45.198396853 ProcessGroupNCCL.cpp:542] [Rank 0] Collective WorkNCCL(SeqNum=2, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) raised the following async exception: NCCL error: remote process exited or there was a network error, NCCL version 2.21.5
+ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+Last error:
+NET/IB : Got completion from peer 10.23.1.65<60166> with status=5 opcode=129 len=0 vendor err 244 (Recv)
+Exception raised from checkForNCCLErrorsInternal at /opt/conda/conda-bld/pytorch_1729647327489/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:2027 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x1554e85e8446 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::checkForNCCLErrorsInternal(std::shared_ptr<c10d::NCCLComm>&) + 0x220 (0x1554e990abd0 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::WorkNCCL::checkAndSetException() + 0x7c (0x1554e990ae1c in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::watchdogHandler() + 0x213 (0x1554e99127e3 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x1554e991426d in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0x145c0 (0x15554d30a5c0 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #6: <unknown function> + 0x94ac3 (0x15555527dac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #7: <unknown function> + 0x126a40 (0x15555530fa40 in /lib/x86_64-linux-gnu/libc.so.6)
+
+[rank0]:[E102 06:11:45.200876542 ProcessGroupNCCL.cpp:1785] [PG ID 0 PG GUID 0(default_pg) Rank 0] Exception (either an error or timeout) detected by watchdog at work: 2, last enqueued NCCL work: 2, last completed NCCL work: 1.
+[rank0]:[E102 06:11:45.200886499 ProcessGroupNCCL.cpp:630] [Rank 0] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank0]:[E102 06:11:45.200899303 ProcessGroupNCCL.cpp:636] [Rank 0] To avoid data inconsistency, we are taking the entire process down.
+[rank0]:[E102 06:11:45.202193573 ProcessGroupNCCL.cpp:1595] [PG ID 0 PG GUID 0(default_pg) Rank 0] Process group watchdog thread terminated with exception: NCCL error: remote process exited or there was a network error, NCCL version 2.21.5
+ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+Last error:
+NET/IB : Got completion from peer 10.23.1.65<60166> with status=5 opcode=129 len=0 vendor err 244 (Recv)
+Exception raised from checkForNCCLErrorsInternal at /opt/conda/conda-bld/pytorch_1729647327489/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:2027 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x1554e85e8446 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::checkForNCCLErrorsInternal(std::shared_ptr<c10d::NCCLComm>&) + 0x220 (0x1554e990abd0 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::WorkNCCL::checkAndSetException() + 0x7c (0x1554e990ae1c in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::watchdogHandler() + 0x213 (0x1554e99127e3 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x1554e991426d in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0x145c0 (0x15554d30a5c0 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #6: <unknown function> + 0x94ac3 (0x15555527dac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #7: <unknown function> + 0x126a40 (0x15555530fa40 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 0] Process group watchdog thread terminated with exception: NCCL error: remote process exited or there was a network error, NCCL version 2.21.5
+ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+Last error:
+NET/IB : Got completion from peer 10.23.1.65<60166> with status=5 opcode=129 len=0 vendor err 244 (Recv)
+Exception raised from checkForNCCLErrorsInternal at /opt/conda/conda-bld/pytorch_1729647327489/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:2027 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x1554e85e8446 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::checkForNCCLErrorsInternal(std::shared_ptr<c10d::NCCLComm>&) + 0x220 (0x1554e990abd0 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::WorkNCCL::checkAndSetException() + 0x7c (0x1554e990ae1c in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::watchdogHandler() + 0x213 (0x1554e99127e3 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x1554e991426d in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0x145c0 (0x15554d30a5c0 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #6: <unknown function> + 0x94ac3 (0x15555527dac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #7: <unknown function> + 0x126a40 (0x15555530fa40 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /opt/conda/conda-bld/pytorch_1729647327489/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1601 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x1554e85e8446 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe62867 (0x1554e958a867 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x15554d30a5c0 in /scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x15555527dac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126a40 (0x15555530fa40 in /lib/x86_64-linux-gnu/libc.so.6)
+
+/scratch/infattllm/fgscaling/rui/slurm_nodes/workspace/miniconda3/envs/py310_env/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 4 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+slurmstepd: error: *** STEP 166079.1 ON dgx-35 CANCELLED AT 2025-01-02T06:13:56 ***
